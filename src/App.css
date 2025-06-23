@@ -1,0 +1,9 @@
+.centered-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-block {
+    background-color: #091540;
+}

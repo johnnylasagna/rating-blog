@@ -1,0 +1,121 @@
+[
+    {
+        "name": "The Strokes",
+        "albums": [
+            {
+                "name": "Is This It",
+                "rating": 5.0,
+                "description": "The best debut album of all time"
+            },
+            {
+                "name": "Room on Fire",
+                "rating": 5.0,
+                "description": "A strong follow-up with catchy hooks and tight production"
+            },
+            {
+                "name": "First Impressions of Earth",
+                "rating": 4.5,
+                "description": "Darker and more experimental, but could be ordered better"
+            },
+            {
+                "name": "Angles",
+                "rating": 4.0,
+                "description": "A mixed bag with some standout tracks"
+            },
+            {
+                "name": "Comedown Machine",
+                "rating": 4.5,
+                "description": "Underrated and underappreciated"
+            },
+            {
+                "name": "The New Abnormal",
+                "rating": 5.0,
+                "description": "A mature return to form with great songwriting"
+            },
+            {
+                "name": "Is This It",
+                "rating": 5.0,
+                "description": "The best debut album of all time"
+            },
+            {
+                "name": "Room on Fire",
+                "rating": 5.0,
+                "description": "A strong follow-up with catchy hooks and tight production"
+            },
+            {
+                "name": "First Impressions of Earth",
+                "rating": 4.5,
+                "description": "Darker and more experimental, but could be ordered better"
+            },
+            {
+                "name": "Angles",
+                "rating": 4.0,
+                "description": "A mixed bag with some standout tracks"
+            },
+            {
+                "name": "Comedown Machine",
+                "rating": 4.5,
+                "description": "Underrated and underappreciated"
+            },
+            {
+                "name": "The New Abnormal",
+                "rating": 5.0,
+                "description": "A mature return to form with great songwriting"
+            }
+        ],
+        "description" : "New York's darlings"
+    },
+    {
+        "name" : "Arctic Monkeys",
+        "albums": [
+            {
+                "name": "Favourite Worst Nightmare",
+                "rating": 5.0,
+                "description": "The perfect blend of all the eras of the band"
+            },
+            {
+                "name": "Suck It and See",
+                "rating": 3.5,
+                "description": "Has some strong songs, but leans too much towards traditional rock"
+            },
+            {
+                "name": "AM",
+                "rating": 4.0,
+                "description": "They sold out, but that doesn't stop the songs from being good"
+            },
+            {
+                "name": "Tranquility Base Hotel & Casino",
+                "rating": 4.5,
+                "description": "Jazz was never this cool before"
+            },
+            {
+                "name": "The Car",
+                "rating": 4.0,
+                "description": "Alex is a full on jazz prince now"
+            }
+        ],
+        "description" : "Sheffield's darlings"
+    },
+    {
+        "name": "Vampire Weekend",
+        "albums": [
+            {
+                "name": "Only God Was Above Us",
+                "rating": 5.0,
+                "description": "Thrilling anti-pop multi instrumental piano ballads"
+            }
+        ],
+        "description" : "New York's genre defying package"
+    },
+    {
+        "name": "Benches",
+        "albums": [
+            {
+                "name": "Wishful Thinking (At Its Best)",
+                "rating": 5.0,
+                "description": "The perfect brainchild of The Strokes and Arctic Monkeys"
+            }
+        ],
+        "description" : "Southern California's darlings"
+    }
+]

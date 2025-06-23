@@ -1,0 +1,21 @@
+.album-box {
+    display: flex;
+    flex-direction: column;
+    /* width: fit-content; */
+    align-items: center;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    background-color: #091540;
+    margin: 10px;
+}
+
+.album-row {
+    display: flex;
+    justify-content: center;  
+    align-items: center;   
+    gap: 20px;                
+    flex-wrap: nowrap;   
+    /* overflow-x: auto; */
+    padding: 20px;
+    width: 100%; 
+}

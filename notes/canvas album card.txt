@@ -1,0 +1,2 @@
+to achieve window/canvas like look
+set width : 100% in albumname.css and albumrating.css
