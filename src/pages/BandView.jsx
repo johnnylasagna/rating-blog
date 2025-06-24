@@ -1,6 +1,6 @@
-import data from '././data/data.json'
+import BandSection from './../components/Band-Section/BandSection.jsx'
 
-function BandView() {
+function BandView({data}) {
   return (
       <div>
         <BandSection data={data}/>

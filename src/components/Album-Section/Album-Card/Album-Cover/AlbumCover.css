@@ -1,0 +1,17 @@
+.album-cover {
+    width: 150px;
+    height: 150px;
+    border-color: black;
+    border-style: solid;
+    margin: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.album-cover:hover{
+    transform: scale(1.05);
+    transition: transform 0.2s;
+    border-color: #ABD2FA;
+    border-style: solid;
+    margin: 5px;
+}

@@ -1,5 +1,6 @@
 import './App.css'
-import BandSection from './components/Band-Section/BandSection.jsx'
+import BandView from './pages/BandView.jsx'
+import AlbumView from './pages/AlbumView.jsx'
 import Greeting from './components/Greeting/Greeting.jsx'
 import Menu from './components/Menu/Menu.jsx'
 
@@ -17,7 +18,8 @@ function App() {
         <Menu />
       </div>
       <Routes>
-        <Route path="/band-view" element={<BandSection data={data}/>}/>
+        <Route path="/band-view" element={<BandView data={data}/>}/>
+        <Route path="/album-view" element={<AlbumView data={data} />}/>
       </Routes>
     </Router>
   )

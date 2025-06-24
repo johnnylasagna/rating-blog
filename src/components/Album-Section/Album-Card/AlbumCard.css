@@ -1,0 +1,16 @@
+.album-card {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    gap:20px;
+}
+
+.album-entry {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 15px;
+    background-color: #091540;
+    border-color: #E4572E;
+    border-style: solid;
+}

@@ -15,8 +15,10 @@ function BandCard({name, albums, description}) {
         <div className='album-box'>
             <BandName name = {name} onClick={handleClick}/>
             {showAlbums &&
-                <div className='album-row'>
-                    {albumsList}
+                <div className='album-row-wrapper'>
+                    <div className='album-row'>
+                        {albumsList}
+                    </div>
                 </div>
             }
             <BandDescription description = {description} />
