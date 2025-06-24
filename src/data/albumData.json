@@ -1,0 +1,226 @@
+[
+    {
+        "album": "Is This It",
+        "band": "The Strokes",
+        "rating": 5.0,
+        "description": "The best debut album of all time",
+        "trackList": []
+    },
+    {
+        "album": "Room on Fire",
+        "band": "The Strokes",
+        "rating": 5.0,
+        "description": "A strong follow-up with catchy hooks and tight production",
+        "trackList": []
+    },
+    {
+        "album": "First Impressions of Earth",
+        "band": "The Strokes",
+        "rating": 4.5,
+        "description": "Darker and more experimental, but could be ordered better",
+        "trackList": []
+    },
+    {
+        "album": "Angles",
+        "band": "The Strokes",
+        "rating": 4.0,
+        "description": "A mixed bag with some standout tracks",
+        "trackList": []
+    },
+    {
+        "album": "Comedown Machine",
+        "band": "The Strokes",
+        "rating": 4.5,
+        "description": "Underrated and underappreciated",
+        "trackList": []
+    },
+    {
+        "album": "The New Abnormal",
+        "band": "The Strokes",
+        "rating": 5.0,
+        "description": "A mature return to form with great songwriting",
+        "trackList": []
+    },
+    {
+        "album": "Favourite Worst Nightmare",
+        "band": "Arctic Monkeys",
+        "rating": 5.0,
+        "description": "The perfect blend of all the eras of the band",
+        "trackList": []
+    },
+    {
+        "album": "Suck It and See",
+        "band": "Arctic Monkeys",
+        "rating": 3.5,
+        "description": "Has some strong songs, but leans too much towards traditional rock",
+        "trackList": []
+    },
+    {
+        "album": "AM",
+        "band": "Arctic Monkeys",
+        "rating": 4.0,
+        "description": "They sold out, but that doesn't stop the songs from being good",
+        "trackList": []
+    },
+    {
+        "album": "Tranquility Base Hotel & Casino",
+        "band": "Arctic Monkeys",
+        "rating": 4.5,
+        "description": "Jazz was never this cool before",
+        "trackList": []
+    },
+    {
+        "album": "The Car",
+        "band": "Arctic Monkeys",
+        "rating": 4.0,
+        "description": "Alex is a full on jazz prince now",
+        "trackList": []
+    },
+    {
+        "album": "Only God Was Above Us",
+        "band": "Vampire Weekend",
+        "rating": 5.0,
+        "description": "Thrilling anti-pop multi instrumental piano ballads",
+        "trackList": []
+    },
+    {
+        "album": "Wishful Thinking (At Its Best)",
+        "band": "Benches",
+        "rating": 5.0,
+        "description": "The perfect brainchild of The Strokes and Arctic Monkeys",
+        "trackList": []
+    },
+    {
+        "album": "The Symposium",
+        "band": "The Symposium",
+        "rating": 4.5,
+        "description": "A perfect blend of indie rock and synth rock",
+        "trackList": []
+    },
+    {
+        "album": "Portamento",
+        "band": "The Drums",
+        "rating": 5.0,
+        "description": "The biblical verses coalesce with the amazing bass riffs",
+        "trackList": []
+    },
+    {
+        "album": "Tyranny",
+        "band": "The Voidz",
+        "rating": 4.5,
+        "description": "Experimental, dark extravaganza",
+        "trackList": []
+    },
+    {
+        "album": "Virtue",
+        "band": "The Voidz",
+        "rating": 5.0,
+        "description": "Accesible psychedelic rock",
+        "trackList": []
+    },
+    {
+        "album": "Like All Before You",
+        "band": "The Voidz",
+        "rating": 4.0,
+        "description": "Autotune wonderland",
+        "trackList": []
+    },
+    {
+        "album": "Francis Trouble",
+        "band": "Albert Hammond Jr",
+        "rating": 4.5,
+        "description": "If the strokes were slightly cooler",
+        "trackList": []
+    },
+    {
+        "album": "Melodies on Hiatus",
+        "band": "Albert Hammond Jr",
+        "rating": 4.5,
+        "description": "Pop oriented but just as amazing as he's always been",
+        "trackList": []
+    },
+    {
+        "album": "Yours to Keep",
+        "band": "Albert Hammond Jr",
+        "rating": 4.5,
+        "description": "Charming solo debut with heartfelt songwriting",
+        "trackList": []
+    },
+    {
+        "album": "Charm",
+        "band": "Clairo",
+        "rating": 5.0,
+        "description": "Intimate borderline jazz indie pop",
+        "trackList": []
+    },
+    {
+        "album": "Phrazes for the Young",
+        "band": "Julian Casablancas",
+        "rating": 4.5,
+        "description": "The synth is what Julian was missing for that extra layer of harmony",
+        "trackList": []
+    },
+    {
+        "album": "Your City Gave Me Asthma",
+        "band": "Wilbur Soot",
+        "rating": 4.5,
+        "description": "Deeply emotional acoustic storytelling",
+        "trackList": []
+    },
+    {
+        "album": "Mammalian Sighing Reflex",
+        "band": "Wilbur Soot",
+        "rating": 5.0,
+        "description": "I just wanted to be one of the voidz while only having an acoustic guitar",
+        "trackList": []
+    },
+    {
+        "album": "Brat",
+        "band": "Charli XCX",
+        "rating": 5.0,
+        "description": "Hyperpop that's gonna make you dance",
+        "trackList": []
+    },
+    {
+        "album": "Hold on Now, Youngster...",
+        "band": "Los Campesinos!",
+        "rating": 4.5,
+        "description": "Best indie pop debut",
+        "trackList": []
+    },
+    {
+        "album": "We Are Beautiful, We Are Doomed",
+        "band": "Los Campesinos!",
+        "rating": 5.0,
+        "description": "Instrumentally mind blowing, lyrically eye-opening",
+        "trackList": []
+    },
+    {
+        "album": "Romance Is Boring",
+        "band": "Los Campesinos!",
+        "rating": 5.0,
+        "description": "We've turned full emo now",
+        "trackList": []
+    },
+    {
+        "album": "All Hell",
+        "band": "Los Campesinos!",
+        "rating": 4.5,
+        "description": "Refined to the extreme",
+        "trackList": []
+    },
+    {
+        "album": "Are We There Yet?",
+        "band": "James Marriott",
+        "rating": 4.5,
+        "description": "Somewhere perfectly between indie rock and indie pop",
+        "trackList": []
+    },
+    {
+        "album": "Don't Tell The Dog",
+        "band": "James Marriott",
+        "rating": 4.0,
+        "description": "All in indie pop introspection ",
+        "trackList": []
+    }
+]

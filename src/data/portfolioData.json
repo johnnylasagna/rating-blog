@@ -1,0 +1,53 @@
+[
+    {
+        "EP": "Homegrown",
+        "songs": [
+            {
+                "name" : "Picture Perfect",
+                "length" : "3:10"
+            },
+            {
+                "name" : "Pretty Much The Same",
+                "length" : "3:33"
+            },
+            {
+                "name" : "Wake Up Call",
+                "length" : "3:23"
+            }
+        ]
+    },
+    {
+        "EP": "FPP",
+        "songs": [
+            {
+                "name": "Spectra",
+                "length": "4:03"
+            },
+            {
+                "name": "Failing at your own pace",
+                "length": "3:42"
+            },
+            {
+                "name": "Untitled Song 1",
+                "length": "4:33"
+            }
+        ]
+    },
+    {
+        "EP": "Seasons",
+        "songs": [
+            {
+                "name": "Christmas Sadness",
+                "length": "2:44"
+            },
+            {
+                "name": "Love at First Click",
+                "length": "3:37"
+            },
+            {
+                "name": "Not The Wrong Way",
+                "length": "4:47"
+            }
+        ]
+    }
+]

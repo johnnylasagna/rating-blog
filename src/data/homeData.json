@@ -1,0 +1,20 @@
+[
+    {
+        "title": "24/06/2025",
+        "description": "Added a lot of stuff and made changes to the UI",
+        "instructions": [
+            "The navigation bar is now a floating bar",
+            "Added option to view all albums",
+            "Added a search box (currently just a placeholder)",
+            "Changed the UI to have a more glass like feel"
+        ]
+    },
+    {
+        "title": "23/06/2025",
+        "description": "Beginnings of a big project",
+        "instructions": [
+            "Added option to view by band in a carousel",
+            "Added a navigation bar"
+        ]
+    }
+]

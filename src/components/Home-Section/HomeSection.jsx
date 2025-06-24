@@ -1,0 +1,43 @@
+import './HomeSection.css'
+
+function HomeSection({ data }) {
+    const homeCards = data.map(block => <div className='home-card'>
+        <h1>{block.title}</h1>
+        <p>
+            {block.description} <br />
+            <ol>
+                {block.instructions.map(instruction => (<li>{instruction}</li>))}
+            </ol>
+        </p>
+    </div>)
+
+    return (
+        <div className="home-section">
+            <div className='home-card'>
+                <h1>Hello fellow music enthusiast</h1>
+                <p>
+                    This is a small website I made using the power of the internet to show off all the different albums I've heard. <br />
+                    I'm big on listening to music and i thought it would be a good idea to collect all the elite knowledge I've gathered about
+                    what sounds good and what doesn't in an easily accessible place <br />
+                    <br />
+                    I've tried to use tutorials and references where I could, and avoided using AI tools as much as possible except for some manual chores
+                    like filling out jsons with album details. I'm not that into web development anymore but I'm doing it for the fun of making something
+                    people can see to know more about me.
+                </p>
+            </div>
+            <h2>Updates:</h2>
+            {homeCards}
+        </div>
+    )
+}
+
+export default HomeSection
+
+// This is a small website I made using the power of the internet to show off all the different albums I've heard. <br />
+// You have four choices to choose from: <br />
+// <ol>
+//     <li>View albums grouped by band</li>
+//     <li>View all the albums</li>
+//     <li>Have a glance at the music I've made</li>
+//     <li>Look at my current recommendations</li>
+// </ol>

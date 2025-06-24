@@ -12,6 +12,12 @@
     background-color: #5777f7;
 }
 
+.centered-heading {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .nav {
     display: flex;
     /* align-self: center; */

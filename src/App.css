@@ -1,9 +1,3 @@
-.centered-heading {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
 .app-block {
     background-color: rgb(9, 21, 64, 0.5);
     /* SET TO 1 TO REMOVE GLASS EFFECT */
