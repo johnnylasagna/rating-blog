@@ -2,6 +2,8 @@ import BandCard from './Band-Card/BandCard.jsx'
 import './BandSection.css'
 
 function BandSection({data}) {
+    const sortedData = [...data].sort((a, b) => a.name.localeCompare(b.name));
+    data = sortedData;
     return (
         <div className='band-section'>
             {data.map(band => (
@@ -12,7 +14,6 @@ function BandSection({data}) {
             ))}
         </div>
     )
-    
 }
 
 export default BandSection

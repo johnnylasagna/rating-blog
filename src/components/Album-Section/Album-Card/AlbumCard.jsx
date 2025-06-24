@@ -1,4 +1,4 @@
-import AlbumCover from "./Album-Cover/AlbumCover.jsx";
+import AlbumCover from "./Album-Image/AlbumImage.jsx";
 import AlbumName from "./Album-Name/AlbumName.jsx";
 import './AlbumCard.css'
 

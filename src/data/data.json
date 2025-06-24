@@ -87,5 +87,162 @@
             }
         ],
         "description" : "Southern California's darlings"
+    },
+    {
+        "name": "The Symposium",
+        "albums": [
+            {
+                "name": "The Symposium",
+                "rating": 4.5,
+                "description": "A perfect blend of indie rock and synth rock"
+            }
+        ],
+        "description": "Chicago's Darlings"
+    },
+    {
+        "name" : "The Drums",
+        "albums": [
+            {
+                "name": "Portamento",
+                "rating": 5.0,
+                "description": "The biblical verses coalesce with the amazing bass riffs"
+            }
+        ],
+        "description": "I don't remember what city they're from"
+    }
+    ,
+    {
+        "name": "The Voidz",
+        "albums": [
+            {
+                "name": "Tyranny",
+                "rating": 4.5,
+                "description": "Experimental, dark extravaganza"
+            },
+            {
+                "name": "Virtue",
+                "rating": 5.0,
+                "description": "Accesible psychedelic rock"
+            },
+            {
+                "name": "Like All Before You",
+                "rating": 4.0,
+                "description": "Autotune wonderland"
+            }
+        ],
+        "description": "Psychedelic prison jazz rock"
+    },
+    {
+        "name": "Albert Hammond Jr",
+        "albums": [
+            {
+                "name": "Francis Trouble",
+                "rating": 4.5,
+                "description": "If the strokes were slightly cooler"
+            },
+            {
+                "name": "Melodies on Hiatus",
+                "rating": 4.5,
+                "description": "Pop oriented but just as amazing as he's always been"
+            },
+            {
+                "name": "Yours to Keep",
+                "rating": 4.5,
+                "description": "Charming solo debut with heartfelt songwriting"
+            }
+        ],
+        "description": "The heart of The Strokes"
+    }
+    ,
+    {
+        "name": "Clairo",
+        "albums": [
+            {
+                "name": "Charm",
+                "rating": 5.0,
+                "description": "Intimate borderline jazz indie pop"
+            }
+        ],
+        "description": "Harmony queen"
+    },
+    {
+        "name": "Julian Casablancas",
+        "albums": [
+            {
+                "name": "Phrazes for the Young",
+                "rating": 4.5,
+                "description": "The synth is what Julian was missing for that extra layer of harmony"
+            }
+        ],
+        "description": "Improvisation king"
+    },
+    {
+        "name": "Wilbur Soot",
+        "albums": [
+            {
+                "name": "Your City Gave Me Asthma",
+                "rating": 4.5,
+                "description": "Deeply emotional acoustic storytelling"
+            },
+            {
+                "name": "Mammalian Sighing Reflex",
+                "rating": 5.0,
+                "description": "I just wanted to be one of the voidz while only having an acoustic guitar"
+            }
+        ],
+        "description": "Brighton's darling"
+    },
+    {
+        "name": "Charli XCX",
+        "albums": [
+            {
+                "name": "Brat",
+                "rating": 5.0,
+                "description": "Hyperpop that's gonna make you dance"
+            }
+        ],
+        "description": "Rave's darling"
+    },
+    {
+        "name": "Los Campesinos!",
+        "albums": [
+            {
+                "name": "Hold on Now, Youngster...",
+                "rating": 4.5,
+                "description": "Best indie pop debut"
+            },
+            {
+                "name": "We Are Beautiful, We Are Doomed",
+                "rating": 5.0,
+                "description": "Instrumentally mind blowing, lyrically eye-opening"
+            },
+            {
+                "name": "Romance Is Boring",
+                "rating": 5.0,
+                "description": "We've turned full emo now"
+            },
+            {
+                "name": "All Hell",
+                "rating": 4.5,
+                "description": "Refined to the extreme"
+            }
+        ],
+        "description": "Welsh emo punk darlings"
+    },
+    {
+        "name": "James Marriott",
+        "albums": [
+            {
+                "name": "Are We There Yet?",
+                "rating": 4.5,
+                "description": "Somewhere perfectly between indie rock and indie pop"
+            },
+            {
+                "name": "Don't Tell The Dog",
+                "rating": 4.0,
+                "description": "All in indie pop introspection "
+            }
+        ],
+        "description": "The only successful youtuber turned musician"
     }
 ]

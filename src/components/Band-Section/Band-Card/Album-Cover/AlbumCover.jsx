@@ -6,7 +6,8 @@ function AlbumCover({ album, name }) {
     const [showInfo, setShowInfo] = useState(false)
     const [mousePos, setMousePos] = useState({ x: 0, y: 0 })
 
-    const albumCover = '/assets/' + name + '/' + album.name + '.jpg'
+    const albumNameFixed = album.name.replace(/[.?]/g, '');
+    const albumCover = '/assets/' + name + '/' + albumNameFixed + '.jpg'
 
     const handleMouseEnter = () => setShowInfo(true)
     const handleMouseLeave = () => setShowInfo(false)

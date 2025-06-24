@@ -10,7 +10,34 @@
     flex-direction: column;
     justify-content: center;
     padding: 15px;
-    background-color: #091540;
-    border-color: #E4572E;
+    background-color: rgb(9, 21, 64, 0.8); 
+    /* SET TO 0.6 for glass like effect */
+    /* border-color: rgb(228, 87, 46); */
     border-style: solid;
+}
+
+.album-entry:hover{
+    border-color: #ABD2FA;
+    border-style: solid;
+    /* margin: 5px; */
+    /* cursor: none; */
+    transition: border-color 0.5s;
+    box-sizing: border-box;
+    box-shadow: 0 4px 16px rgba(228, 87, 46, 0.4);
+}
+
+.album-entry:hover .album-image {
+    /* transform: scale(1.01);
+    transition: transform 0.2s; */
+    border-color: #ABD2FA;
+    border-style: solid;
+    margin: 5px;
+    transition: border-color 0.5s;
+}
+
+.album-entry:hover .album-name {
+    /* transform: scale(1.01);
+    transition: transform 0.2s; */
+    color: #ABD2FA;
+    transition: color 0.5s;
 }

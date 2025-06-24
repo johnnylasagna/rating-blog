@@ -12,9 +12,6 @@ function App() {
   return (
     <Router>
       <div className='app-block'>
-        <div className='centered-heading'>
-          <Greeting />
-        </div>
         <Menu />
       </div>
       <Routes>
