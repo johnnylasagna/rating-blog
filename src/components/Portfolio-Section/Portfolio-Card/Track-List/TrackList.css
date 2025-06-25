@@ -1,0 +1,14 @@
+.track-list {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    gap: 30px;
+}
+
+.track {
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    font-size: large;
+    color: white;
+}

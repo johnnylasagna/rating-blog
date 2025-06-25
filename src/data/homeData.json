@@ -1,5 +1,14 @@
 [
     {
+        "title": "25/06/2025" ,
+        "description": "Some small changes",
+        "instructions": [
+            "Added a basic layout for the my music section",
+            "Added animations to Bands and All Albums",
+            "Added social links at the bottom of the page"
+        ]
+    },
+    {
         "title": "24/06/2025",
         "description": "Added a lot of stuff and made changes to the UI",
         "instructions": [

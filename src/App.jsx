@@ -4,6 +4,7 @@ import AlbumView from './pages/AlbumView.jsx'
 import PortfolioView from './pages/PortfolioView.jsx'
 import HomeView from './pages/HomeView.jsx'
 import Menu from './components/Menu/Menu.jsx'
+import SocialLinks from './components/Social-Links/SocialLinks.jsx'
 
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
@@ -23,6 +24,9 @@ function App() {
         <Route path="/album-view" element={<AlbumView data={data} />}/>
         <Route path="/portfolio-view" element={<PortfolioView data={portfolioData} />}/>
       </Routes>
+      <div>
+        <SocialLinks />
+      </div>
     </Router>
   )
 }

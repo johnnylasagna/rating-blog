@@ -13,7 +13,7 @@ function HomeSection({ data }) {
 
     return (
         <div className="home-section">
-            <div className='home-card'>
+            <div className='home-introduction'>
                 <h1>Hello fellow music enthusiast</h1>
                 <p>
                     This is a small website I made using the power of the internet to show off all the different albums I've heard. <br />
@@ -23,6 +23,16 @@ function HomeSection({ data }) {
                     I've tried to use tutorials and references where I could, and avoided using AI tools as much as possible except for some manual chores
                     like filling out jsons with album details. I'm not that into web development anymore but I'm doing it for the fun of making something
                     people can see to know more about me.
+                    <br />
+                    <br />
+                    Here, you can:
+                    <ol>
+                        <li>Browse albums grouped by band</li>
+                        <li>See a complete list of all albums I've rated</li>
+                        <li>Check out some of my own music creations</li>
+                        <li>Find my current music recommendations</li>
+                    </ol>
+                    Use the navigation bar at the top to explore these sections and discover more!
                 </p>
             </div>
             <h2>Updates:</h2>
