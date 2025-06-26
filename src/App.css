@@ -12,3 +12,13 @@
     border: 3px black solid;
     z-index: 1000;
 }
+
+/* .app-block:hover {
+    border: medium#ABD2FA solid;
+    transition: 0.3s;
+}
+
+.app-block:hover .nav-link {
+    border: 1px#ABD2FA solid;
+    transition: 0.3s;
+} */

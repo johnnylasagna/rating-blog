@@ -30,6 +30,10 @@
     border-style: solid;
 }
 
+.album-entry-link {
+    text-decoration: none;
+}
+
 .album-entry:hover {
     border-color: #ABD2FA;
     border-style: solid;

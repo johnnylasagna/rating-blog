@@ -1,53 +1,38 @@
 import './HomeSection.css'
+import { Link } from 'react-router-dom';
 
-function HomeSection({ data }) {
-    const homeCards = data.map(block => <div className='home-card'>
-        <h1>{block.title}</h1>
-        <p>
-            {block.description} <br />
-            <ol>
-                {block.instructions.map(instruction => (<li>{instruction}</li>))}
-            </ol>
-        </p>
-    </div>)
-
+function HomeSection({ albums }) {
+    albums = [...albums].reverse();
     return (
         <div className="home-section">
-            <div className='home-introduction'>
-                <h1>Hello fellow music enthusiast</h1>
-                <p>
-                    This is a small website I made using the power of the internet to show off all the different albums I've heard. <br />
-                    I'm big on listening to music and i thought it would be a good idea to collect all the elite knowledge I've gathered about
-                    what sounds good and what doesn't in an easily accessible place <br />
-                    <br />
-                    I've tried to use tutorials and references where I could, and avoided using AI tools as much as possible except for some manual chores
-                    like filling out jsons with album details. I'm not that into web development anymore but I'm doing it for the fun of making something
-                    people can see to know more about me.
-                    <br />
-                    <br />
-                    Here, you can:
-                    <ol>
-                        <li>Browse albums grouped by band</li>
-                        <li>See a complete list of all albums I've rated</li>
-                        <li>Check out some of my own music creations</li>
-                        <li>Find my current music recommendations</li>
-                    </ol>
-                    Use the navigation bar at the top to explore these sections and discover more!
-                </p>
+            <div className='home-card'>
+                <h1>
+                    New Albums added
+                </h1>
+                <div className='home-card-image-row'>
+                    {albums.map(album => {
+                        const albumNameFixed = album.name.replace(/[.?]/g, '');
+                        const imgPath = '/assets/' + album.band + '/' + albumNameFixed + '.jpg';
+                        console.log(imgPath)
+                        return (
+                                <img key={albumNameFixed} src={imgPath} alt={albumNameFixed} className='home-card-image' />
+                        )
+                    })}
+                    {/* <div className='home-card-image-text'>.....</div> */}
+                </div>
+                <Link to="/album-view" className='home-card-link'>Click here to see more albums</Link>
+                {/* <p>
+                    I've been on an expedition to get you the best music on the planet. I don't think its ending any time soon.
+                </p> */}
+                <div className='home-card-info'>
+                    {albums.map(album=>(
+                        album.name + ', '
+                    ))}
+                    were added recently
+                </div>
             </div>
-            <h2>Updates:</h2>
-            {homeCards}
         </div>
     )
 }
 
 export default HomeSection
-
-// This is a small website I made using the power of the internet to show off all the different albums I've heard. <br />
-// You have four choices to choose from: <br />
-// <ol>
-//     <li>View albums grouped by band</li>
-//     <li>View all the albums</li>
-//     <li>Have a glance at the music I've made</li>
-//     <li>Look at my current recommendations</li>
-// </ol>

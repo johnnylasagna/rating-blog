@@ -1,5 +1,14 @@
 [
     {
+        "title": "26/06/2025",
+        "description": "Early morning coding",
+        "instructions": [
+            "Added a page to view albums individually and their tracklist, data is still incomplete",
+            "Changed up the home screen to make it more lively",
+            "Sent updates to /about instead of home (could revert in the future)"
+        ]
+    },
+    {
         "title": "25/06/2025" ,
         "description": "Some small changes",
         "instructions": [

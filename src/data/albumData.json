@@ -1,223 +1,452 @@
 [
     {
-        "album": "Is This It",
+        "id": 1,
+        "name": "Is This It",
         "band": "The Strokes",
         "rating": 5.0,
         "description": "The best debut album of all time",
-        "trackList": []
+        "trackList": [
+            "Is This It",
+            "The Modern Age",
+            "Soma",
+            "Barely Legal",
+            "Someday",
+            "Alone, Together",
+            "Last Nite",
+            "Hard to Explain",
+            "New York City Cops",
+            "Trying Your Luck",
+            "Take It or Leave It"
+        ]
     },
     {
-        "album": "Room on Fire",
+        "id": 2,
+        "name": "Room on Fire",
         "band": "The Strokes",
         "rating": 5.0,
         "description": "A strong follow-up with catchy hooks and tight production",
-        "trackList": []
+        "trackList": [
+            "What Ever Happened?",
+            "Reptilia",
+            "Automatic Stop",
+            "12:51",
+            "You Talk Way Too Much",
+            "Between Love & Hate",
+            "Meet Me in the Bathroom",
+            "Under Control",
+            "The Way It Is",
+            "The End Has No End",
+            "I Can't Win"
+        ]
     },
     {
-        "album": "First Impressions of Earth",
+        "id": 3,
+        "name": "First Impressions of Earth",
         "band": "The Strokes",
         "rating": 4.5,
         "description": "Darker and more experimental, but could be ordered better",
-        "trackList": []
+        "trackList": [
+            "You Only Live Once",
+            "Juicebox",
+            "Heart in a Cage",
+            "Razorblade",
+            "On the Other Side",
+            "Vision of Division",
+            "Ask Me Anything",
+            "Electricityscape",
+            "Killing Lies",
+            "Fear of Sleep",
+            "15 Minutes",
+            "Ize of the World",
+            "Evening Sun",
+            "Red Light"
+        ]
     },
     {
-        "album": "Angles",
+        "id": 4,
+        "name": "Angles",
         "band": "The Strokes",
         "rating": 4.0,
         "description": "A mixed bag with some standout tracks",
-        "trackList": []
+        "trackList": [
+            "Machu Picchu",
+            "Under Cover of Darkness",
+            "Two Kinds of Happiness",
+            "You're So Right",
+            "Taken for a Fool",
+            "Games",
+            "Call Me Back",
+            "Gratisfaction",
+            "Metabolism",
+            "Life Is Simple in the Moonlight"
+        ]
     },
     {
-        "album": "Comedown Machine",
+        "id": 5,
+        "name": "Comedown Machine",
         "band": "The Strokes",
         "rating": 4.5,
         "description": "Underrated and underappreciated",
-        "trackList": []
+        "trackList": [
+            "Tap Out",
+            "All the Time",
+            "One Way Trigger",
+            "Welcome to Japan",
+            "80s Comedown Machine",
+            "50/50",
+            "Slow Animals",
+            "Partners in Crime",
+            "Chances",
+            "Happy Ending",
+            "Call It Fate, Call It Karma"
+        ]
     },
     {
-        "album": "The New Abnormal",
+        "id": 6,
+        "name": "The New Abnormal",
         "band": "The Strokes",
         "rating": 5.0,
         "description": "A mature return to form with great songwriting",
-        "trackList": []
+        "trackList": [
+            "The Adults Are Talking",
+            "Selfless",
+            "Brooklyn Bridge to Chorus",
+            "Bad Decisions",
+            "Eternal Summer",
+            "At the Door",
+            "Why Are Sundays So Depressing",
+            "Not the Same Anymore",
+            "Ode to the Mets"
+        ]
     },
     {
-        "album": "Favourite Worst Nightmare",
+        "id": 7,
+        "name": "Favourite Worst Nightmare",
         "band": "Arctic Monkeys",
         "rating": 5.0,
         "description": "The perfect blend of all the eras of the band",
-        "trackList": []
+        "trackList": [
+            "Brianstorm",
+            "Teddy Picker",
+            "D Is for Dangerous",
+            "Balaclava",
+            "Fluorescent Adolescent",
+            "Only Ones Who Know",
+            "Do Me a Favour",
+            "This House Is a Circus",
+            "If You Were There, Beware",
+            "The Bad Thing",
+            "Old Yellow Bricks",
+            "505"
+        ]
     },
     {
-        "album": "Suck It and See",
+        "id": 8,
+        "name": "Suck It and See",
         "band": "Arctic Monkeys",
         "rating": 3.5,
         "description": "Has some strong songs, but leans too much towards traditional rock",
-        "trackList": []
+        "trackList": [
+            "She's Thunderstorms",
+            "Black Treacle",
+            "Brick by Brick",
+            "The Hellcat Spangled Shalalala",
+            "Don't Sit Down 'Cause I've Moved Your Chair",
+            "Library Pictures",
+            "All My Own Stunts",
+            "Reckless Serenade",
+            "Piledriver Waltz",
+            "Love Is a Laserquest",
+            "Suck It and See",
+            "That's Where You're Wrong"
+        ]
     },
     {
-        "album": "AM",
+        "id": 9,
+        "name": "AM",
         "band": "Arctic Monkeys",
         "rating": 4.0,
         "description": "They sold out, but that doesn't stop the songs from being good",
-        "trackList": []
+        "trackList": [
+            "Do I Wanna Know?",
+            "R U Mine?",
+            "One for the Road",
+            "Arabella",
+            "I Want It All",
+            "No. 1 Party Anthem",
+            "Mad Sounds",
+            "Fireside",
+            "Why'd You Only Call Me When You're High?",
+            "Snap Out of It",
+            "Knee Socks",
+            "I Wanna Be Yours"
+        ]
     },
     {
-        "album": "Tranquility Base Hotel & Casino",
+        "id": 10,
+        "name": "Tranquility Base Hotel & Casino",
         "band": "Arctic Monkeys",
         "rating": 4.5,
         "description": "Jazz was never this cool before",
-        "trackList": []
+        "trackList": [
+            "Star Treatment",
+            "One Point Perspective",
+            "American Sports",
+            "Tranquility Base Hotel & Casino",
+            "Golden Trunks",
+            "Four Out of Five",
+            "The World's First Ever Monster Truck Front Flip",
+            "Science Fiction",
+            "She Looks Like Fun",
+            "Batphone",
+            "The Ultracheese"
+        ]
     },
     {
-        "album": "The Car",
+        "id": 11,
+        "name": "The Car",
         "band": "Arctic Monkeys",
         "rating": 4.0,
         "description": "Alex is a full on jazz prince now",
-        "trackList": []
+        "trackList": [
+            "There'd Better Be a Mirrorball",
+            "I Ain't Quite Where I Think I Am",
+            "Sculptures of Anything Goes",
+            "Jet Skis on the Moat",
+            "Body Paint",
+            "The Car",
+            "Big Ideas",
+            "Hello You",
+            "Mr Schwartz",
+            "Perfect Sense"
+        ]
     },
     {
-        "album": "Only God Was Above Us",
+        "id": 12,
+        "name": "Only God Was Above Us",
         "band": "Vampire Weekend",
         "rating": 5.0,
         "description": "Thrilling anti-pop multi instrumental piano ballads",
-        "trackList": []
+        "trackList": [
+            "Ice Cream Piano",
+            "Classical",
+            "Capricorn",
+            "Connect",
+            "Prep-School Gangsters",
+            "The Surfer",
+            "Gen-X Cops",
+            "Mary Boone",
+            "Pravda",
+            "Hope"
+        ]
     },
     {
-        "album": "Wishful Thinking (At Its Best)",
+        "id": 13,
+        "name": "Wishful Thinking (At Its Best)",
         "band": "Benches",
         "rating": 5.0,
         "description": "The perfect brainchild of The Strokes and Arctic Monkeys",
-        "trackList": []
+        "trackList": [
+            "Angry Lizard Noise",
+            "Heaven",
+            "Queen of Hearts",
+            "I Don't Make Me",
+            "Common Sense",
+            "Obstacles",
+            "Yes, Please, Don't",
+            "Modern Day New York",
+            "No, Thanks, Please",
+            "When I Say This, I Mean It",
+            "You Gave It Your Best",
+            "Television"
+        ]
     },
     {
-        "album": "The Symposium",
+        "id": 14,
+        "name": "The Symposium",
         "band": "The Symposium",
         "rating": 4.5,
         "description": "A perfect blend of indie rock and synth rock",
-        "trackList": []
+        "trackList": [
+            "Streems",
+            "ACL",
+            "Soft Love",
+            "The Physical Attractions",
+            "Creeper",
+            "Based",
+            "Nino 2",
+            "Synth Song",
+            "Red River",
+            "Starfall"
+        ]
     },
     {
-        "album": "Portamento",
+        "id": 15,
+        "name": "Portamento",
         "band": "The Drums",
         "rating": 5.0,
         "description": "The biblical verses coalesce with the amazing bass riffs",
-        "trackList": []
+        "trackList": [
+            "Book of Revelation",
+            "Days",
+            "What You Were",
+            "Money",
+            "Hard to Love",
+            "I Don't Know How to Love",
+            "Searching for Heaven",
+            "Please Don't Leave",
+            "If He Likes It Let Him Do It",
+            "I Need a Doctor",
+            "In the Cold",
+            "How It Ended"
+        ]
     },
     {
-        "album": "Tyranny",
+        "id": 16,
+        "name": "Tyranny",
         "band": "The Voidz",
         "rating": 4.5,
         "description": "Experimental, dark extravaganza",
         "trackList": []
     },
     {
-        "album": "Virtue",
+        "id": 17,
+        "name": "Virtue",
         "band": "The Voidz",
         "rating": 5.0,
         "description": "Accesible psychedelic rock",
-        "trackList": []
+        "trackList": [
+            "Leave It in My Dreams",
+            "Qyurryus",
+            "Pyramid of Bones",
+            "Permanent High School",
+            "Aliennation","One of the Ones",
+            "All Wordz Are Made Up",
+            "Think Before You Drink",
+            "Wink",
+            "My Friend the Walls",
+            "Pink Ocean",
+            "Black Hole",
+            "Lazy Boy",
+            "We're Where We Were",
+            "Pointlessness"
+        ]
     },
     {
-        "album": "Like All Before You",
+        "id": 18,
+        "name": "Like All Before You",
         "band": "The Voidz",
         "rating": 4.0,
         "description": "Autotune wonderland",
         "trackList": []
     },
     {
-        "album": "Francis Trouble",
+        "id": 19,
+        "name": "Francis Trouble",
         "band": "Albert Hammond Jr",
         "rating": 4.5,
         "description": "If the strokes were slightly cooler",
         "trackList": []
     },
     {
-        "album": "Melodies on Hiatus",
+        "id": 20,
+        "name": "Melodies on Hiatus",
         "band": "Albert Hammond Jr",
         "rating": 4.5,
         "description": "Pop oriented but just as amazing as he's always been",
         "trackList": []
     },
     {
-        "album": "Yours to Keep",
+        "id": 21,
+        "name": "Yours to Keep",
         "band": "Albert Hammond Jr",
         "rating": 4.5,
         "description": "Charming solo debut with heartfelt songwriting",
         "trackList": []
     },
     {
-        "album": "Charm",
+        "id": 22,
+        "name": "Charm",
         "band": "Clairo",
         "rating": 5.0,
         "description": "Intimate borderline jazz indie pop",
         "trackList": []
     },
     {
-        "album": "Phrazes for the Young",
+        "id": 23,
+        "name": "Phrazes for the Young",
         "band": "Julian Casablancas",
         "rating": 4.5,
         "description": "The synth is what Julian was missing for that extra layer of harmony",
         "trackList": []
     },
     {
-        "album": "Your City Gave Me Asthma",
+        "id": 24,
+        "name": "Your City Gave Me Asthma",
         "band": "Wilbur Soot",
         "rating": 4.5,
         "description": "Deeply emotional acoustic storytelling",
         "trackList": []
     },
     {
-        "album": "Mammalian Sighing Reflex",
+        "id": 25,
+        "name": "Mammalian Sighing Reflex",
         "band": "Wilbur Soot",
         "rating": 5.0,
         "description": "I just wanted to be one of the voidz while only having an acoustic guitar",
         "trackList": []
     },
     {
-        "album": "Brat",
+        "id": 26,
+        "name": "Brat",
         "band": "Charli XCX",
         "rating": 5.0,
         "description": "Hyperpop that's gonna make you dance",
         "trackList": []
     },
     {
-        "album": "Hold on Now, Youngster...",
+        "id": 27,
+        "name": "Hold on Now, Youngster...",
         "band": "Los Campesinos!",
         "rating": 4.5,
         "description": "Best indie pop debut",
         "trackList": []
     },
     {
-        "album": "We Are Beautiful, We Are Doomed",
+        "id": 28,
+        "name": "We Are Beautiful, We Are Doomed",
         "band": "Los Campesinos!",
         "rating": 5.0,
         "description": "Instrumentally mind blowing, lyrically eye-opening",
         "trackList": []
     },
     {
-        "album": "Romance Is Boring",
+        "id": 29,
+        "name": "Romance Is Boring",
         "band": "Los Campesinos!",
         "rating": 5.0,
         "description": "We've turned full emo now",
         "trackList": []
     },
     {
-        "album": "All Hell",
+        "id": 30,
+        "name": "All Hell",
         "band": "Los Campesinos!",
         "rating": 4.5,
         "description": "Refined to the extreme",
         "trackList": []
     },
     {
-        "album": "Are We There Yet?",
+        "id": 31,
+        "name": "Are We There Yet?",
         "band": "James Marriott",
         "rating": 4.5,
         "description": "Somewhere perfectly between indie rock and indie pop",
         "trackList": []
     },
     {
-        "album": "Don't Tell The Dog",
+        "id": 32,
+        "name": "Don't Tell The Dog",
         "band": "James Marriott",
         "rating": 4.0,
         "description": "All in indie pop introspection ",

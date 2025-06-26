@@ -1,6 +1,6 @@
 import AlbumSection from './../components/Album-Section/AlbumSection.jsx'
 
-function ALbumView({data}) {
+function AlbumView({data}) {
   return (
       <div>
         <AlbumSection data={data}/>
@@ -8,4 +8,4 @@ function ALbumView({data}) {
   )
 }
 
-export default ALbumView
+export default AlbumView

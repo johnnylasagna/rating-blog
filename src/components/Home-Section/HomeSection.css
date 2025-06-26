@@ -1,63 +1,93 @@
 .home-section {
     padding: 20px;
-    padding-top: 50px;
-    background-color: #3D518C;
+    padding-top: 70px;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
-
-.home-introduction {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    /* background-color: rgb(9, 21, 64, 0.6); */
-    margin-top: 20px;
-    margin-bottom: 20px;
-    border: medium black solid;
-    background-color: rgb(9, 21, 64, 0.7);
-    color: #7692FF;
-}
-
-.home-introduction:hover {
-    /* transform: scale(1.01); */
-    background-color: rgb(9, 21, 64, 0.6);
-    border: medium#ABD2FA solid;
-    transition: 0.2s;
-}
-
-.home-introduction h1 {
-    font-size: 40px;
-    padding-left: 20px;
-    padding-top: 10px;
-}
-
-.home-introduction p {
-    font-size: large;
-    padding-left: 20px;
-    padding-bottom: 20px;
 }
 
 .home-card {
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    background-color: rgb(9, 21, 64, 0.7);
+    padding: 20px;
+    background-color: rgb(118, 146, 255, 0.6);
     border: medium black solid;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    /* color: white; */
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.home-card p {
+    font-size: large;
 }
 
 .home-card:hover {
-    /* transform: scale(1.01); */
-    background-color: rgb(9, 21, 64, 0.6);
-    border: medium#ABD2FA solid;  
-    color: #ABD2FA;  
+    background-color: rgb(118, 146, 255, 0.8);
+    border-color: #ABD2FA;
+    border-style: solid;
+    /* color: #ABD2FA; */
     transition: 0.3s;
 }
 
 .home-card h1 {
-    padding-left: 20px;
-    padding-top: 10px;
+    color:#FFC914
 }
 
-.home-card p {
-    padding-left: 20px;
-    padding-bottom: 10px;
+.home-card:hover h1:hover {
+    color: #FFC914;
+    transition: 0.3s;
+}
+
+.home-card-image-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.home-card-image {
+    width: 175px;
+    height: 175px;
+    margin:20px;
+    border: medium black solid;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.home-card:hover .home-card-image{
+    /* transform: scale(1.05); */
+    transition: 0.3s;
+    border-color: #ABD2FA;
+    border-style: solid;
+}
+
+.home-card-image-text {
+    text-align: center;
+}
+
+.home-card-info {
+    margin:20px;
+}
+
+.home-card-link {
+    display: inline-flex;
+    background-color: rgb(118, 146, 255, 0.5);
+    /* SET TO 1 TO REMOVE GLASS EFFECT */
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: black;
+    border-width: 1px;
+    border-style: solid;
+    /* outline: 3px solid black;
+    outline-offset: -2px; */
+    padding-block: 10px;
+    color: black;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: large;
+    text-decoration: none;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.home-card:hover .home-card-link:hover {
+    background-color: rgb(118, 146, 255, 0.8);
+    color:#091540;
+    border-color:#ABD2FA;
+    transition: 0.3s;
 }

@@ -1,8 +1,9 @@
-import HomeSection from '../components/Home-Section/HomeSection.jsx'
+import HomeSection from "../components/Home-Section/HomeSection"
 
 function HomeView({data}) {
+    const lastFiveEntries = data.slice(-5);
     return (
-        <HomeSection data={data}/>
+        <HomeSection albums={lastFiveEntries} />
     )
 }
 
