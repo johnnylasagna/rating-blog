@@ -9,14 +9,44 @@ import SingleAlbumView from './pages/SingleAlbumView.jsx'
 import Menu from './components/Menu/Menu.jsx'
 import SocialLinks from './components/Social-Links/SocialLinks.jsx'
 
+import { db } from './firebase';
+import { collection, getDocs } from 'firebase/firestore';
+
+// addDoc
+// import {writeAlbumsToFirestore} from './DataWriter.jsx'
+
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
 
-import data from './data/data.json'
 import portfolioData from './data/portfolioData.json'
 import homeData from './data/homeData.json'
-import albumData from './data/albumData.json'
+// import albumData from './data/albumData.json'
+
+import { useEffect, useState } from 'react';
 
 function App() {
+  const [albumData, setAlbumData] = useState([]);
+  const [bandData, setBandData] = useState([]);
+
+  useEffect(() => {
+    async function fetchAlbums() {
+      const albumsCollection = collection(db, 'albums');
+      const albumSnapshot = await getDocs(albumsCollection);
+      const albums = albumSnapshot.docs.map(doc => doc.data());
+      setAlbumData(albums);
+    }
+    fetchAlbums();
+  }, []);
+
+  useEffect(() => {
+    async function fetchBands() {
+      const bandsCollection = collection(db, 'bands');
+      const bandSnapshot = await getDocs(bandsCollection);
+      const bands = bandSnapshot.docs.map(doc => doc.data());
+      setBandData(bands);
+    }
+    fetchBands();
+  }, []);
+
   return (
     <Router>
       <div className='app-block'>
@@ -25,7 +55,7 @@ function App() {
       <Routes>
         <Route path="/" element={<HomeView data={albumData}/>}/>
         <Route path="/about" element={<AboutView data={homeData}/>}/>
-        <Route path="/band-view" element={<BandView data={data}/>}/>
+        <Route path="/band-view" element={<BandView albumData={albumData} bandData={bandData}/>}/>
         <Route path="/album-view" element={<AlbumView data={albumData} />}/>
         <Route path="/portfolio-view" element={<PortfolioView data={portfolioData} />}/>
         <Route path="/single-album-view/:albumId" element={<SingleAlbumView data={albumData} />}/>

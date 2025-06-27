@@ -1,248 +1,60 @@
 [
     {
         "name": "The Strokes",
-        "albums": [
-            {
-                "name": "Is This It",
-                "rating": 5.0,
-                "description": "The best debut album of all time"
-            },
-            {
-                "name": "Room on Fire",
-                "rating": 5.0,
-                "description": "A strong follow-up with catchy hooks and tight production"
-            },
-            {
-                "name": "First Impressions of Earth",
-                "rating": 4.5,
-                "description": "Darker and more experimental, but could be ordered better"
-            },
-            {
-                "name": "Angles",
-                "rating": 4.0,
-                "description": "A mixed bag with some standout tracks"
-            },
-            {
-                "name": "Comedown Machine",
-                "rating": 4.5,
-                "description": "Underrated and underappreciated"
-            },
-            {
-                "name": "The New Abnormal",
-                "rating": 5.0,
-                "description": "A mature return to form with great songwriting"
-            }
-        ],
         "description" : "New York's darlings"
     },
     {
         "name" : "Arctic Monkeys",
-        "albums": [
-            {
-                "name": "Favourite Worst Nightmare",
-                "rating": 5.0,
-                "description": "The perfect blend of all the eras of the band"
-            },
-            {
-                "name": "Suck It and See",
-                "rating": 3.5,
-                "description": "Has some strong songs, but leans too much towards traditional rock"
-            },
-            {
-                "name": "AM",
-                "rating": 4.0,
-                "description": "They sold out, but that doesn't stop the songs from being good"
-            },
-            {
-                "name": "Tranquility Base Hotel & Casino",
-                "rating": 4.5,
-                "description": "Jazz was never this cool before"
-            },
-            {
-                "name": "The Car",
-                "rating": 4.0,
-                "description": "Alex is a full on jazz prince now"
-            }
-        ],
         "description" : "Sheffield's darlings"
     },
     {
         "name": "Vampire Weekend",
-        "albums": [
-            {
-                "name": "Only God Was Above Us",
-                "rating": 5.0,
-                "description": "Thrilling anti-pop multi instrumental piano ballads"
-            }
-        ],
         "description" : "New York's genre defying package"
     },
     {
         "name": "Benches",
-        "albums": [
-            {
-                "name": "Wishful Thinking (At Its Best)",
-                "rating": 5.0,
-                "description": "The perfect brainchild of The Strokes and Arctic Monkeys"
-            }
-        ],
         "description" : "Southern California's darlings"
     },
     {
         "name": "The Symposium",
-        "albums": [
-            {
-                "name": "The Symposium",
-                "rating": 4.5,
-                "description": "A perfect blend of indie rock and synth rock"
-            }
-        ],
         "description": "Chicago's Darlings"
     },
     {
         "name" : "The Drums",
-        "albums": [
-            {
-                "name": "Portamento",
-                "rating": 5.0,
-                "description": "The biblical verses coalesce with the amazing bass riffs"
-            }
-        ],
         "description": "I don't remember what city they're from"
     }
     ,
     {
         "name": "The Voidz",
-        "albums": [
-            {
-                "name": "Tyranny",
-                "rating": 4.5,
-                "description": "Experimental, dark extravaganza"
-            },
-            {
-                "name": "Virtue",
-                "rating": 5.0,
-                "description": "Accesible psychedelic rock"
-            },
-            {
-                "name": "Like All Before You",
-                "rating": 4.0,
-                "description": "Autotune wonderland"
-            }
-        ],
         "description": "Psychedelic prison jazz rock"
     },
     {
         "name": "Albert Hammond Jr",
-        "albums": [
-            {
-                "name": "Francis Trouble",
-                "rating": 4.5,
-                "description": "If the strokes were slightly cooler"
-            },
-            {
-                "name": "Melodies on Hiatus",
-                "rating": 4.5,
-                "description": "Pop oriented but just as amazing as he's always been"
-            },
-            {
-                "name": "Yours to Keep",
-                "rating": 4.5,
-                "description": "Charming solo debut with heartfelt songwriting"
-            }
-        ],
         "description": "The heart of The Strokes"
     }
     ,
     {
         "name": "Clairo",
-        "albums": [
-            {
-                "name": "Charm",
-                "rating": 5.0,
-                "description": "Intimate borderline jazz indie pop"
-            }
-        ],
         "description": "Harmony queen"
     },
     {
         "name": "Julian Casablancas",
-        "albums": [
-            {
-                "name": "Phrazes for the Young",
-                "rating": 4.5,
-                "description": "The synth is what Julian was missing for that extra layer of harmony"
-            }
-        ],
         "description": "Improvisation king"
     },
     {
         "name": "Wilbur Soot",
-        "albums": [
-            {
-                "name": "Your City Gave Me Asthma",
-                "rating": 4.5,
-                "description": "Deeply emotional acoustic storytelling"
-            },
-            {
-                "name": "Mammalian Sighing Reflex",
-                "rating": 5.0,
-                "description": "I just wanted to be one of the voidz while only having an acoustic guitar"
-            }
-        ],
         "description": "Brighton's darling"
     },
     {
         "name": "Charli XCX",
-        "albums": [
-            {
-                "name": "Brat",
-                "rating": 5.0,
-                "description": "Hyperpop that's gonna make you dance"
-            }
-        ],
         "description": "Rave Queen"
     },
     {
         "name": "Los Campesinos!",
-        "albums": [
-            {
-                "name": "Hold on Now, Youngster...",
-                "rating": 4.5,
-                "description": "Best indie pop debut"
-            },
-            {
-                "name": "We Are Beautiful, We Are Doomed",
-                "rating": 5.0,
-                "description": "Instrumentally mind blowing, lyrically eye-opening"
-            },
-            {
-                "name": "Romance Is Boring",
-                "rating": 5.0,
-                "description": "We've turned full emo now"
-            },
-            {
-                "name": "All Hell",
-                "rating": 4.5,
-                "description": "Refined to the extreme"
-            }
-        ],
         "description": "Welsh emo punk darlings"
     },
     {
         "name": "James Marriott",
-        "albums": [
-            {
-                "name": "Are We There Yet?",
-                "rating": 4.5,
-                "description": "Somewhere perfectly between indie rock and indie pop"
-            },
-            {
-                "name": "Don't Tell The Dog",
-                "rating": 4.0,
-                "description": "All in indie pop introspection "
-            }
-        ],
         "description": "The only successful youtuber turned musician"
     }
 ]

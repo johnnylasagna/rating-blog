@@ -13,9 +13,10 @@ function HomeSection({ albums }) {
                     {albums.map(album => {
                         const albumNameFixed = album.name.replace(/[.?]/g, '');
                         const imgPath = '/assets/' + album.band + '/' + albumNameFixed + '.jpg';
-                        console.log(imgPath)
                         return (
-                                <img key={albumNameFixed} src={imgPath} alt={albumNameFixed} className='home-card-image' />
+                                <div>
+                                    <img key={albumNameFixed} src={imgPath} alt={albumNameFixed} className='home-card-image' />
+                                </div>
                         )
                     })}
                     {/* <div className='home-card-image-text'>.....</div> */}
@@ -26,7 +27,7 @@ function HomeSection({ albums }) {
                 </p> */}
                 <div className='home-card-info'>
                     {albums.map(album=>(
-                        album.name + ', '
+                        album.name + ' by ' + album.band + ', '
                     ))}
                     were added recently
                 </div>
