@@ -6,11 +6,18 @@ A personal web project to share my thoughts, reviews, and ratings on music album
 - Browse albums I've listened to
 - Read my personal reviews and ratings
 - View album covers and band information
-- Modern, responsive UI
+- See individual album pages with tracklists
+- Explore my own music creations (EPs and tracklists)
+- Find my current music recommendations
+- Modern, responsive UI with glass-like design and animated effects
+- Social links and improved navigation bar
 
 ## Tech Stack
+
 - [React](https://react.dev/)
 - [Vite](https://vitejs.dev/)
+- [Firebase](https://firebase.google.com/) (for database)
+- [Vercel](https://vercel.com/) (for hosting)
 
 ## Project Structure
 - `src/` - React components, styles, and data

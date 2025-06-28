@@ -5,8 +5,8 @@ import './PortfolioCard.css'
 function PortfolioCard({item}) {
     return (
         <div className="portfolio-card">
-            <EPcard name={item.EP}/>
-            <TrackList tracks={item.songs}/>
+            {/* <EPcard name={item.EP}/> */}
+            <TrackList tracks={item.songs} year={item.year} name={item.EP}/>
         </div>
     )
 }

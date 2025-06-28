@@ -1,4 +1,10 @@
 .album-section {
     padding: 20px;
     padding-top: 70px;
+    gap:20px;
+}
+
+.filters {
+    display: flex;
+    flex-direction: row;
 }

@@ -6,6 +6,24 @@ function HomeSection({ albums }) {
     return (
         <div className="home-section">
             <div className='home-card'>
+                <h1>Failing At Your Own Pace coming out on 4th July</h1>
+                <div className='home-card-info'>
+                    <div className='home-card-album-names'>
+                        This is going to be my first song that exclusively uses electric guitar
+                    </div>
+                    <div className='home-card-album-names'>
+                        I've also heard there's going to be a music video accompanying it
+                    </div>
+                    <div className='home-card-album-names'>
+                        There could also be a bonus track a few days later
+                    </div>
+                    <div className='home-card-album-names'>
+                        Meanwhile you can check out my other songs and some hints about the new EP
+                    </div>
+                </div>
+                <Link to="/portfolio-view" className='home-card-link'>Click here to see my other songs</Link>
+            </div>
+            <div className='home-card'>
                 <h1>
                     New Albums added
                 </h1>
@@ -14,9 +32,11 @@ function HomeSection({ albums }) {
                         const albumNameFixed = album.name.replace(/[.?]/g, '');
                         const imgPath = '/assets/' + album.band + '/' + albumNameFixed + '.jpg';
                         return (
-                                <div>
+                            <div>
+                                <Link to={'../single-album-view/' + album.id} className='home-card-album-link'>
                                     <img key={albumNameFixed} src={imgPath} alt={albumNameFixed} className='home-card-image' />
-                                </div>
+                                </Link>
+                            </div>
                         )
                     })}
                     {/* <div className='home-card-image-text'>.....</div> */}
@@ -26,10 +46,14 @@ function HomeSection({ albums }) {
                     I've been on an expedition to get you the best music on the planet. I don't think its ending any time soon.
                 </p> */}
                 <div className='home-card-info'>
-                    {albums.map(album=>(
-                        album.name + ' by ' + album.band + ', '
+                    {albums.map(album => (
+                        <div className='home-card-album-names'>
+                            {album.name} by {album.band}
+                        </div>
                     ))}
-                    were added recently
+                    <div className='home-card-album-names'>
+                        were added recently
+                    </div>
                 </div>
             </div>
         </div>

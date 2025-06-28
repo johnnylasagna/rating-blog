@@ -1,14 +1,60 @@
 .track-list {
     display: flex;
     flex-direction: column;
+    /* flex: 1 0 100%; */
     padding: 20px;
     gap: 30px;
+    /* border-left: medium black solid; */
+}
+
+.track-list-wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 100%;
+}
+
+.track-EP-Name {
+    margin-left: 20px;
+    color: rgb(228, 87, 46, 0.9);
+    display: flex;
+    gap:20px;
 }
 
 .track {
     display: flex;
     flex-direction: row;
-    gap:20px;
+    gap: 20px;
     font-size: large;
     color: white;
+    width: 100%;
+}
+
+.track:hover {
+    color: #7692FF;
+    transition: 0.3s;
+}
+
+.track-card {
+    display: flex;
+    flex: 1 0 100%;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.track-year {
+    /* flex: 1 0 100%; */
+    /* padding: 20px; */
+    /* padding-top: 15px; */
+    margin-left: auto;
+    text-align: end;
+    font-size: x-large;
+    color: white;
+}
+
+.track-year:hover {
+    color: #FFC914;
+    transition: 0.3s;
 }

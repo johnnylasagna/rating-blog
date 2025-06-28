@@ -1,5 +1,26 @@
 [
     {
+        "title": "28/06/2025",
+        "description": "Added functionality and fixes",
+        "instructions": [
+            "Search bar is now only present in album view and works",
+            "Added sorting to album page",
+            "Added animations to home view",
+            "Added band section to admin page",
+            "Fixed some things on portfolio page",
+            "Fixed routing issue in vercel"
+        ]
+    },
+    {
+        "title": "27/06/2025",
+        "description": "Database changes",
+        "instructions": [
+            "Ported text part of database to firebase",
+            "Made an admin page for adding more albums",
+            "Small changes to components"
+        ]
+    },
+    {
         "title": "26/06/2025",
         "description": "Early morning coding",
         "instructions": [

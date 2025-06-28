@@ -15,7 +15,7 @@ import { collection, getDocs } from 'firebase/firestore';
 // addDoc
 // import {writeAlbumsToFirestore} from './DataWriter.jsx'
 
-import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import portfolioData from './data/portfolioData.json'
 import homeData from './data/homeData.json'
@@ -23,29 +23,36 @@ import homeData from './data/homeData.json'
 
 import { useEffect, useState } from 'react';
 
+
 function App() {
   const [albumData, setAlbumData] = useState([]);
   const [bandData, setBandData] = useState([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    async function fetchAlbums() {
+    async function fetchData() {
       const albumsCollection = collection(db, 'albums');
-      const albumSnapshot = await getDocs(albumsCollection);
+      const bandsCollection = collection(db, 'bands');
+      const [albumSnapshot, bandSnapshot] = await Promise.all([
+        getDocs(albumsCollection),
+        getDocs(bandsCollection)
+      ]);
       const albums = albumSnapshot.docs.map(doc => doc.data());
+      const bands = bandSnapshot.docs.map(doc => doc.data());
       setAlbumData(albums);
+      setBandData(bands);
+      setLoading(false);
     }
-    fetchAlbums();
+    fetchData();
   }, []);
 
-  useEffect(() => {
-    async function fetchBands() {
-      const bandsCollection = collection(db, 'bands');
-      const bandSnapshot = await getDocs(bandsCollection);
-      const bands = bandSnapshot.docs.map(doc => doc.data());
-      setBandData(bands);
-    }
-    fetchBands();
-  }, []);
+  if (loading) {
+    return (
+      <div className='loading-screen-wrapper'>
+        <div className='loading-screen'>Loading...</div>
+      </div>
+    )
+  }
 
   return (
     <Router>
@@ -53,12 +60,12 @@ function App() {
         <Menu />
       </div>
       <Routes>
-        <Route path="/" element={<HomeView data={albumData}/>}/>
-        <Route path="/about" element={<AboutView data={homeData}/>}/>
-        <Route path="/band-view" element={<BandView albumData={albumData} bandData={bandData}/>}/>
-        <Route path="/album-view" element={<AlbumView data={albumData} />}/>
-        <Route path="/portfolio-view" element={<PortfolioView data={portfolioData} />}/>
-        <Route path="/single-album-view/:albumId" element={<SingleAlbumView data={albumData} />}/>
+        <Route path="/" element={<HomeView data={albumData} />} />
+        <Route path="/about" element={<AboutView data={homeData} />} />
+        <Route path="/band-view" element={<BandView albumData={albumData} bandData={bandData} />} />
+        <Route path="/album-view" element={<AlbumView data={albumData} />} />
+        <Route path="/portfolio-view" element={<PortfolioView data={portfolioData} />} />
+        <Route path="/single-album-view/:albumId" element={<SingleAlbumView data={albumData} />} />
       </Routes>
       <div>
         <SocialLinks />

@@ -45,3 +45,7 @@
     border-style: solid;
     margin: 5px;
 }
+
+.album-cover-link {
+    text-decoration: None;
+}
