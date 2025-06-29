@@ -6,6 +6,18 @@ function HomeSection({ albums }) {
     return (
         <div className="home-section">
             <div className='home-card'>
+                <h1>FPP Album Cover Reveal</h1>
+                <div className='home-card-image-row'>
+                    <img src='/assets/FPP/cover.jpg' className='home-card-image' />
+                </div>
+                <div className='home-card-info'>
+                    <div className='home-card-album-names'>
+                        So what do you guys think about it?
+                    </div>
+                </div>
+                <Link to="/portfolio-view" className='home-card-link'>Click here to see my other songs</Link>
+            </div>
+            <div className='home-card'>
                 <h1>
                     New Albums added
                 </h1>
@@ -39,37 +51,19 @@ function HomeSection({ albums }) {
                 </div>
             </div>
             <div className='home-card'>
-                <h1>Failing At Your Own Pace coming out on 4th July</h1>
+                <h1>Song Release Dates</h1>
                 <div className='home-card-info'>
                     <div className='home-card-album-names'>
-                        This is going to be my first song that exclusively uses electric guitar
+                        Failing At Your Own Pace comes out on 4th July
                     </div>
                     <div className='home-card-album-names'>
-                        I've also heard there's going to be a music video accompanying it
+                        Spectra comes out on 11th July
                     </div>
                     <div className='home-card-album-names'>
-                        There could also be a bonus track a few days later
+                        Untitled song comes out on 18th July
                     </div>
                     <div className='home-card-album-names'>
                         Meanwhile you can check out my other songs and some hints about the new EP
-                    </div>
-                </div>
-                <Link to="/portfolio-view" className='home-card-link'>Click here to see my other songs</Link>
-            </div>
-            <div className='home-card'>
-                <h1>Spectra coming out on 11th July</h1>
-                <div className='home-card-info'>
-                    <div className='home-card-album-names'>
-                        This is going to be a fun one, its all electronic now
-                    </div>
-                </div>
-                <Link to="/portfolio-view" className='home-card-link'>Click here to see my other songs</Link>
-            </div>
-            <div className='home-card'>
-                <h1>Untitled song coming out on 18th July</h1>
-                <div className='home-card-info'>
-                    <div className='home-card-album-names'>
-                        I still don't know what to name this? Maybe you guys can suggest something
                     </div>
                 </div>
                 <Link to="/portfolio-view" className='home-card-link'>Click here to see my other songs</Link>

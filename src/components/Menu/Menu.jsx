@@ -15,6 +15,7 @@ function Menu() {
             <div className='centered-heading'>
                 <Greeting />
             </div>
+            <Link to="/about" className='nav-link' style={{ marginRight: '0px', marginLeft: 'auto' }}>About</Link>
         </nav>
     )
 }
