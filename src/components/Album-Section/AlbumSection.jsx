@@ -41,7 +41,7 @@ function AlbumSection({ data }) {
     }
 
     function onClickYear() {
-        let sorted = [...albumData].sort((a, b) => a.year.localeCompare(b.year));
+        let sorted = [...albumData].sort((a, b) => a.year - b.year);
         if (!reverseYear) {
             setAlbumData(sorted);
         } else {
@@ -62,7 +62,7 @@ function AlbumSection({ data }) {
     return (
         <div className='album-section'>
             <div className='filters'>
-                <SortFilter onClickAlbum={onClickAlbum} onClickBands={onClickBands}/>
+                <SortFilter onClickAlbum={onClickAlbum} onClickBands={onClickBands} onClickYear={onClickYear}/>
                 <SearchFilter updateSearch={updateSearch}/>
             </div>
             <div>

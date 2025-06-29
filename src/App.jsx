@@ -19,9 +19,10 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import portfolioData from './data/portfolioData.json'
 import homeData from './data/homeData.json'
-// import albumData from './data/albumData.json'
+import lyricData from './data/lyricData.json'
 
 import { useEffect, useState } from 'react';
+import LyricView from './pages/LyricView.jsx'
 
 
 function App() {
@@ -64,8 +65,9 @@ function App() {
         <Route path="/about" element={<AboutView data={homeData} />} />
         <Route path="/band-view" element={<BandView albumData={albumData} bandData={bandData} />} />
         <Route path="/album-view" element={<AlbumView data={albumData} />} />
-        <Route path="/portfolio-view" element={<PortfolioView data={portfolioData} />} />
+        <Route path="/portfolio-view" element={<PortfolioView data={portfolioData} lyricData={lyricData} />} />
         <Route path="/single-album-view/:albumId" element={<SingleAlbumView data={albumData} />} />
+        <Route path="/lyric-view/:lyricId" element={<LyricView data={lyricData} />} />
       </Routes>
       <div>
         <SocialLinks />

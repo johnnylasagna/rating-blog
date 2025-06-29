@@ -1,4 +1,12 @@
-[
+[   
+    {
+        "title": "29/06/2025",
+        "description": "Revamped the my music tab",
+        "instructions": [
+            "Added lyrics section to my music",
+            "Added embedded youtube player"
+        ]
+    },
     {
         "title": "28/06/2025",
         "description": "Added functionality and fixes",

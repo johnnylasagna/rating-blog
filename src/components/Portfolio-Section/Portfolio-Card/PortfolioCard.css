@@ -10,6 +10,7 @@
 
 .portfolio-card:hover {
     border-color: #7692FF;
-    transition: 0.3s;
+    background-color: rgb(9, 21, 64, 0.6);
     transform: scale(1.005);
+    transition: 0.3s;
 }

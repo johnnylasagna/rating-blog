@@ -53,10 +53,15 @@
     overflow: hidden;
     overflow-x: scroll;
     animation: imageRowLoad 0.3s ease-in both;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+}
+.home-card-image-row::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
 }
 
 @keyframes imageRowLoad {
-    0% {transform: translateX(3000px);}
+    0% {transform: translateX(2000px);}
     100% {transform: translateX(0px);}
 }
 

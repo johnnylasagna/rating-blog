@@ -1,3 +1,15 @@
+.track-list a {
+    color: inherit;
+    text-decoration: none;
+    font: inherit;
+    background: none;
+    outline: none;
+    box-shadow: none;
+    padding: 0;
+    margin: 0;
+    border: none;
+    cursor: pointer;
+}
 .track-list {
     display: flex;
     flex-direction: column;
@@ -57,4 +69,8 @@
 .track-year:hover {
     color: #FFC914;
     transition: 0.3s;
+}
+
+.track-list {
+    text-decoration: None;
 }
