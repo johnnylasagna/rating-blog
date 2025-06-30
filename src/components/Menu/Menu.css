@@ -31,21 +31,6 @@
     display: none; /* Chrome, Safari and Opera */
 }
 
-@media (max-width: 600px) {
-  .nav {
-    flex-wrap: wrap;
-    justify-content: center;
-    overflow-x: visible;
-  }
-  .nav .nav-link {
-    flex: 1 1 100%;
-    min-width: 120px;
-    font-size: 1rem;
-    margin: 2px 0;
-    box-sizing: border-box;
-  }
-}
-
 .nav .nav-link {
     display: inline-flex;
     align-items: center;

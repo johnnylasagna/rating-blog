@@ -1,3 +1,8 @@
+.app-ui {
+    display:flex;
+    flex-direction: column;
+}
+
 .app-block {
     background-color: rgb(9, 21, 64, 0.5);
     /* SET TO 1 TO REMOVE GLASS EFFECT */
@@ -35,8 +40,8 @@
 }
 
 .loading-screen {
-    width: 30vw;
-    height: 30vh;
+    width: 800px;
+    height: 400px;
     display: flex;
     align-items: center;
     justify-content: center;

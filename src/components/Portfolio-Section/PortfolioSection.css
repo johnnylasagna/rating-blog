@@ -5,4 +5,14 @@
     gap:20px;
     padding-top: 70px;
     background-color: #3D518C;
+    animation: portfolioLoad 1s ease-in forwards;
+}
+
+@keyframes portfolioLoad {
+    0% {transform: translateY(-30px);}
+    20% {transform: translateY(0px);}
+    40% {transform: translateY(-10px);}
+    60% {transform: translateY(0px);}
+    80% {transform: translateY(-5px);}
+    100% {transform: translateY(0px);}
 }

@@ -32,7 +32,7 @@ function SingleAlbumSection({ data }) {
                     ))}
                 </div>
                 <div className='single-album-recommendations'>
-                    <h1>More albums you could check out</h1>
+                    <h1>More albums by {album.band}</h1>
                     <div className='single-album-recommendations-images'>
                         {sameBandAlbums.map(album => (
                             <Link to={'../single-album-view/' + album.id} className='single-album-recommendation-link'>

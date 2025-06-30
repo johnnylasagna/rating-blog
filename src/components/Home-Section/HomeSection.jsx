@@ -14,6 +14,9 @@ function HomeSection({ albums }) {
                     <div className='home-card-album-names'>
                         So what do you guys think about it?
                     </div>
+                    <div className='home-card-album-names'>
+                        The music video for Failing At Your Own Pace is coming out on 4th July
+                    </div>
                 </div>
                 <Link to="/portfolio-view" className='home-card-link'>Click here to see my other songs</Link>
             </div>

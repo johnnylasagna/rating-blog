@@ -14,29 +14,53 @@ function AboutSection({ data }) {
     return (
         <div className="about-section">
             <div className='about-introduction'>
-                <h1>Hello fellow music enthusiast</h1>
-                <p>
-                    This is a small website I made using the power of the internet to show off all the different albums I've heard. <br />
-                    I'm big on listening to music and i thought it would be a good idea to collect all the elite knowledge I've gathered about
-                    what sounds good and what doesn't in an easily accessible place <br />
-                    <br />
-                    I've tried to use tutorials and references where I could, and avoided using AI tools as much as possible except for some manual chores
-                    like filling out jsons with album details. I'm not that into web development anymore but I'm doing it for the fun of making something
-                    people can see to know more about me.
-                    <br />
-                    <br />
-                    Here, you can:
-                    <ol>
-                        <li>Browse albums grouped by band</li>
-                        <li>See a complete list of all albums I've rated</li>
-                        <li>Check out some of my own music creations</li>
-                        <li>Find my current music recommendations</li>
-                    </ol>
-                    Use the navigation bar at the top to explore these sections and discover more!
-                </p>
+                <h1>Why did I make this?</h1>
+                <div className='about-introduction-paragraphs'>
+                    <p>
+                        I've always wanted to impose my listening tastes on others.
+                        Usually the medium was posting stories on instagram.
+                        And that was fine for a while. 
+                        But then I had an idea to make a website where I could store all my album ratings and reviews.
+                        It would be easier for me to organise and it would be easier for other people to access it.
+                    </p>
+                    <p>
+                        So I decided to learn web development for about a week so I could bring this project to fruition.
+                        I'd tried learning react many times before this, but I'd always lose interest in the middle of it.
+                        I had experience with html and css back in 2014 so web development wasn't entirely new to me.
+                    </p>
+                    <p>
+                        So kind of similar to whenever i learn a new programming language I try to make games in it because it's something I'll have fun doing,
+                        I tried making this in react to finally be able to have a complete run with the language.
+                        I'd say I have a pretty good understanding of how stuff works in react now.
+                    </p>
+                    <p>
+                        But I'm still no professional.
+                        And i don't enjoy web development as much as i enjoy some other things like machine learning and low level programming.
+                        Of course I'm not the best at any of those either but there's still a lot of time to learn.
+                    </p>
+                    <p>
+                        The last 7 days have been very fun and I've completed most of the stuff I wanted to do with this project.
+                        I'll add detailed reviews for the albums sometime in the future.
+                        But I have a lot of other stuff I left behind for this project to complete first.
+                    </p>
+                    <p>
+                        What started as an album rating app also now a home for my entire discography, songs that I'm very proud of.
+                        I consider songwriting to be a bigger talent than anything I could learn in computer science.
+                        I'm doing my part in trying to preserve good songwriting.
+                    </p>
+                    <p>
+                        I had some other plans like adding a custom cursor, making the UI more mobile friendly and other more unimportant things.
+                        I realised that this project slowly morphed into an inconspicuous clone of YouTube music and Genius and it was time to give it a break.
+                    </p>
+                    <p>
+                        I had a very good friend helping out with some parts of the project guiding me and I'd like to thank them.
+                    </p>
+                </div>
             </div>
             <h2>Updates:</h2>
-            {aboutCards}
+            <div className='about-cards'>
+                {aboutCards}
+            </div>
         </div>
     )
 }

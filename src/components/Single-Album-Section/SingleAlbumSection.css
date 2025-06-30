@@ -12,6 +12,12 @@
     width:100%;
     box-sizing: border-box;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+    animation: singleAlbumLoad 0.6s ease-in forwards;
+}
+
+@keyframes singleAlbumLoad {
+    0% {opacity: 0; transform: scale(0.995);}
+    100% {transform: translateY(0px);}
 }
 
 .single-album-details {
@@ -73,7 +79,7 @@
 
 .single-album-recommendations-images {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; */
     /* justify-content: center;
     align-content: center;
     align-items: center; */
@@ -101,4 +107,5 @@
     color : white;
     text-align: center;
     width: 200px;
+    height: 200px;
 }

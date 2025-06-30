@@ -13,6 +13,16 @@
     border: medium black solid;
     background-color: rgb(118, 146, 255, 0.6);
     color: black;
+    animation: introLoad 1s ease-in forwards;
+}
+
+@keyframes introLoad {
+    0% {transform: translateY(-30px);}
+    20% {transform: translateY(0px);}
+    40% {transform: translateY(-10px);}
+    60% {transform: translateY(0px);}
+    80% {transform: translateY(-5px);}
+    100% {transform: translateY(0px);}
 }
 
 /* .about-introduction:hover { */
@@ -23,15 +33,38 @@
 /* } */
 
 .about-introduction h1 {
-    font-size: 40px;
+    /* font-size: 40px; */
     padding-left: 20px;
+    color: rgb(9, 21, 64, 0.9);
     /* padding-top: 10px; */
 }
 
-.about-introduction p {
-    font-size: x-large;
+.about-introduction-paragraphs {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    max-height: 600px;
+}
+
+.about-introduction-paragraphs p {
+    font-size: large;
     padding-left: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
+    width: 600px;
+    /* border: medium black solid; */
+}
+
+.about-introduction-paragraphs p:hover {
+    /* transform: scale(1.01); */
+    color: rgb(171, 210, 250);
+    transition: 0.3s;
+    /* border: medium black solid; */
+}
+
+.about-introduction:hover {
+    background-color: rgb(118, 146, 255, 0.8);
+    border-color: #ABD2FA;
+    transition: 0.3s
 }
 
 .about-card {
@@ -42,6 +75,14 @@
     margin-bottom: 20px;
     /* color: white; */
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255, 0.9);
+    min-width: 400px;
+    animation: aboutCardLoad 0.6s ease-in forwards;
+}
+
+@keyframes aboutCardLoad {
+    0% {transform: translateX(2000px);}
+    100% {transform: translateX(0px);}
 }
 
 .about-card:hover {
@@ -61,4 +102,18 @@
     font-size: large;
     padding-left: 20px;
     padding-bottom: 10px;
+}
+
+.about-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: no-wrap;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    overflow-x: scroll;
+}
+
+.about-cards::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
 }

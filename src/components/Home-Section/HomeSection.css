@@ -55,6 +55,7 @@
     animation: imageRowLoad 0.3s ease-in both;
     scrollbar-width: none; /* Firefox */
     -ms-overflow-style: none;  /* IE and Edge */
+    align-items: flex-start;
 }
 .home-card-image-row::-webkit-scrollbar {
     display: none; /* Chrome, Safari and Opera */
