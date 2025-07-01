@@ -28,8 +28,6 @@ function LyricSection({ data }) {
                 <div className='lyric-video'>
                     <h1>Video</h1>
                     <iframe
-                        width="800"
-                        height="450"
                         src={`https://www.youtube.com/embed/${song.link}`}
                         title="YouTube video player"
                         frameborder="0"

@@ -1,0 +1,50 @@
+.about-card {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(9, 21, 64, 0.7);
+    border: medium black solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    /* color: white; */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    color: rgb(255, 255, 255, 0.9);
+    min-width: 400px;
+    animation: aboutCardLoad 0.6s ease-in forwards;
+}
+
+@keyframes aboutCardLoad {
+    0% {transform: translateX(2000px);}
+    100% {transform: translateX(0px);}
+}
+
+.about-card:hover {
+    /* transform: scale(1.01); */
+    background-color: rgb(9, 21, 64, 0.6);
+    border: medium#ABD2FA solid;  
+    color: #ABD2FA;  
+    transition: 0.3s;
+}
+
+.about-card h1 {
+    padding-left: 20px;
+    padding-top: 10px;
+}
+
+.about-card p {
+    font-size: large;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+
+.about-cards {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: no-wrap;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* IE and Edge */
+    overflow-x: scroll;
+}
+
+.about-cards::-webkit-scrollbar {
+    display: none; /* Chrome, Safari and Opera */
+}

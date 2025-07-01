@@ -1,0 +1,40 @@
+.single-album-recommendations {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+}
+
+.single-album-recommendations h1 {
+    color: #76B041;
+}
+
+.single-album-recommendations-images {
+    display: flex;
+    flex-wrap: wrap;
+    height: 100%;
+    gap: 20px;
+    font-size: large;
+    color: white;
+}
+
+.single-album-recommendations-img {
+    width: 150px;
+    height: 150px;
+    border: medium black solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.single-album-recommendations-img:hover {
+    border-color: #7692FF;
+    transition: 0.3s;
+}
+
+.single-album-recommendation-link {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+}

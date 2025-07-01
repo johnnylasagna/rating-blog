@@ -6,6 +6,7 @@
     padding-top: 70px;
     background-color: #3D518C;
     animation: portfolioLoad 1s ease-in forwards;
+    flex-wrap: wrap;
 }
 
 @keyframes portfolioLoad {

@@ -2,7 +2,9 @@ import SingleAlbumSection from '../components/Single-Album-Section/SingleAlbumSe
 
 function SingleAlbumView({data}) {
     return (
-        <SingleAlbumSection data={data}/>
+        <div>
+            <SingleAlbumSection data={data}/>
+        </div>
     )
 }
 

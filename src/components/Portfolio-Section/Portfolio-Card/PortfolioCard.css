@@ -5,7 +5,8 @@
     background-color: rgb(9, 21, 64, 0.7);
     border: medium black solid;
     box-shadow: 0 4px 16px rgba(0, 0, 0, 0.4);
-    width:100%;
+    flex: 1 0 30%;
+    /* width:100%; */
 }
 
 .portfolio-card:hover {

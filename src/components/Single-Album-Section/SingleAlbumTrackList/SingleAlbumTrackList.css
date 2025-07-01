@@ -1,0 +1,22 @@
+.single-album-trackList {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    padding-top: 0px;
+    padding-bottom: 30px;
+    width: 300px;
+}
+
+.single-album-trackList h1 {
+    color: #FFC914;
+}
+
+.single-album-track {
+    font-size: x-large;
+    color: white;
+}
+
+.single-album-track:hover {
+    color: #7692FF;
+    transition: 0.3s;
+}

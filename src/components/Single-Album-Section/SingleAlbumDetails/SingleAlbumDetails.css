@@ -1,0 +1,21 @@
+.single-album-details {
+    width: 250px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+.single-album-details h1 {
+    color: rgb(228, 87, 46, 1);
+}
+
+.single-album-img {
+    width: 200px;
+    height: 200px;
+    border: medium black solid;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.single-album-details-description {
+    color: white;
+    font-size: large;
+}
