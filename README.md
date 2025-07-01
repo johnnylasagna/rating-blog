@@ -22,14 +22,13 @@ A personal web project to share my thoughts, reviews, and ratings on music album
 ## Project Structure
 - `src/` - React components, styles, and data
 - `public/assets/` - Album cover images
-- `colors/` - Color palettes
-- `notes/` - Project notes
 
 ## Getting Started
 1. Install dependencies:
    ```sh
    npm install
    npm install react-router-dom
+   npm install firebase
    ```
 2. Start the development server:
    ```sh
