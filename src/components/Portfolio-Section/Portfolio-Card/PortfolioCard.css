@@ -14,4 +14,5 @@
     background-color: rgb(9, 21, 64, 0.6);
     transform: scale(1.005);
     transition: 0.3s;
+    box-shadow: 0 0px 16px rgb(171, 210, 250, 0.9);
 }

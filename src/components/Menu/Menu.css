@@ -1,7 +1,7 @@
 .centered-button {
     flex: 1 1 0%;
     height: max-content;
-    background-color: #7692FF;
+    /* background-color: #7692FF; */
     border: #1B2CC1;
     padding-block: 10px;
     border-width: medium;
@@ -38,7 +38,7 @@
     flex: 1 1 160px;
     min-width: 100px;
     height: max-content;
-    background-color: rgb(118, 146, 255, 0.5);
+    background-color: rgb(118, 146, 255, 0.8);
     /* SET TO 1 TO REMOVE GLASS EFFECT */
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
@@ -68,7 +68,7 @@
 } */
 
 .nav .nav-link:hover {
-    transform: scale(1.01);
-    background-color: #5777f7;
+    /* transform: scale(1.01); */
+    background-color: rgb(87, 119, 247, 0.8);
     transition: 0.25s;
 }

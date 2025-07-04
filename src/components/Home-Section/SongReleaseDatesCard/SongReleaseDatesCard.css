@@ -1,6 +1,6 @@
 .songrelease-card {
     padding: 20px;
-    background-color: rgb(118, 146, 255, 0.6);
+    background-color: rgb(9, 21, 64, 0.7);
     border: medium black solid;
     box-sizing: border-box;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
@@ -19,10 +19,12 @@
 }
 
 .songrelease-card:hover {
-    background-color: rgb(118, 146, 255, 0.8);
-    border-color: #ABD2FA;
+    background-color: rgb(9, 21, 64, 0.9);
+    border-color: #7692FF;
     border-style: solid;
     transition: 0.3s;
+    color: #ABD2FA;
+    box-shadow: 0 0px 16px rgb(171, 210, 250, 0.9);
 }
 
 .songrelease-card h1 {
@@ -35,7 +37,7 @@
 
 .songrelease-card-link {
     display: inline-flex;
-    background-color: rgb(118, 146, 255, 0.5);
+    background-color: rgb(118, 146, 255, 0.7);
     backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
     border: black;
@@ -54,7 +56,7 @@
 }
 
 .songrelease-card:hover .songrelease-card-link {
-    background-color: rgb(118, 146, 255, 0.8);
+    background-color: rgb(118, 146, 255, 0.9);
     color:#091540;
     border-color:#ABD2FA;
     transition: 0.3s;

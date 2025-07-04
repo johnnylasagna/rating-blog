@@ -7,7 +7,7 @@ function AboutSection({ data }) {
     return (
         <div className="about-section">
             <AboutIntroduction />
-            <h2>Updates:</h2>
+            <h2 className='about-section-heading'>Updates:</h2>
             <AboutCards data={data} />
         </div>
     );

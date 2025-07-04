@@ -18,10 +18,12 @@
 
 .about-card:hover {
     /* transform: scale(1.01); */
+    border-color: #7692FF;
     background-color: rgb(9, 21, 64, 0.6);
-    border: medium#ABD2FA solid;  
-    color: #ABD2FA;  
+    /* transform: scale(1.005); */
     transition: 0.3s;
+    box-shadow: 0 0px 16px rgb(171, 210, 250, 0.9);
+    color: #ABD2FA;  
 }
 
 .about-card h1 {
@@ -32,6 +34,7 @@
 .about-card p {
     font-size: large;
     padding-left: 20px;
+    padding-right: 5px;
     padding-bottom: 10px;
 }
 

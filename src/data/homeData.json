@@ -1,5 +1,21 @@
 [   
     {
+        "title": "03/07/2025",
+        "description": "Changed up color palette",
+        "instructions": [
+            "Updated primary and secondary colors",
+            "Refined background and accent shades for better contrast"
+        ]
+    },
+    {
+        "title": "01/07/2025",
+        "description": "Fixed UI on mobile",
+        "instructions": [
+            "Improved responsiveness for mobile devices",
+            "Adjusted layout and spacing for smaller screens"
+        ]
+    },
+    {
         "title": "29/06/2025",
         "description": "Revamped the my music tab",
         "instructions": [
