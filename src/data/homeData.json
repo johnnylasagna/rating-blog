@@ -1,5 +1,13 @@
 [   
     {
+        "title": "06/07/2025",
+        "description": "Small UI fixes and changes",
+        "instructions": [
+            "Tweaked button sizes and spacing",
+            "Fixed minor alignment issues"
+        ]
+    },
+    {
         "title": "03/07/2025",
         "description": "Changed up color palette",
         "instructions": [

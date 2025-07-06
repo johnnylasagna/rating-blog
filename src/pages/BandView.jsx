@@ -1,4 +1,4 @@
-import BandSection from './../components/Band-Section/BandSection.jsx'
+import BandSection from '../components/sections/Band-Section/BandSection.jsx'
 
 function BandView({albumData, bandData}) {
   return (

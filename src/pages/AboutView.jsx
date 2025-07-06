@@ -1,4 +1,4 @@
-import AboutSection from '../components/About-Section/AboutSection.jsx'
+import AboutSection from '../components/sections/About-Section/AboutSection.jsx'
 
 function AboutView({data}) {
     return (

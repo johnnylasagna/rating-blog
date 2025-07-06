@@ -1,4 +1,4 @@
-import PortfolioSection from './../components/Portfolio-Section/PortfolioSection.jsx'
+import PortfolioSection from './../components/sections/Portfolio-Section/PortfolioSection.jsx'
 
 function PortfolioView({data, lyricData}) {
   return (

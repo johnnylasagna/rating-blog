@@ -58,9 +58,9 @@ function App() {
   return (
     <Router>
       <div className='app-ui'>
-        <div className='app-block'>
+        {/* <div> */}
           <Menu />
-        </div>
+        {/* </div> */}
         <Routes>
           <Route path="/" element={<HomeView data={albumData} />} />
           <Route path="/about" element={<AboutView data={homeData} />} />

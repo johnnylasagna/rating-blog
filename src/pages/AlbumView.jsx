@@ -1,4 +1,4 @@
-import AlbumSection from './../components/Album-Section/AlbumSection.jsx'
+import AlbumSection from './../components/sections/Album-Section/AlbumSection.jsx'
 
 function AlbumView({data}) {
   return (

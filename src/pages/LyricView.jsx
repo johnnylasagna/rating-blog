@@ -1,4 +1,4 @@
-import LyricSection from "../components/Lyric-Section/LyricSection"
+import LyricSection from "../components/sections/Lyric-Section/LyricSection"
 
 function LyricView({data}) {
     return (

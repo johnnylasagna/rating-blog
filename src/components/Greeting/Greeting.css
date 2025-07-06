@@ -9,3 +9,8 @@
     overflow: hidden;
     text-overflow: ellipsis;
 }
+
+.greeting-heading:hover {
+    color: #7692FF;
+    transition: 0.3s;
+}

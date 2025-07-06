@@ -13,7 +13,7 @@ function FPPRevealCard() {
                     So what do you guys think about it?
                 </div>
                 <div className='fpp-card-album-names'>
-                    The music video for Failing At Your Own Pace is coming out on 4th July
+                    The music video for Failing At Your Own Pace is out now!
                 </div>
             </div>
             <Link to="/portfolio-view" className='fpp-card-link'>Click here to see my other songs</Link>

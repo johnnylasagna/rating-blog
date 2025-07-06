@@ -9,7 +9,7 @@ function HomeSection({ albums }) {
         <div className="home-section">
             <FPPRevealCard />
             <NewAlbumsCard albums={reversedAlbums} />
-            <SongReleaseDatesCard />
+            {/* <SongReleaseDatesCard /> */}
         </div>
     );
 }

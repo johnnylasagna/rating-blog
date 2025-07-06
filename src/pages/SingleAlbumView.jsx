@@ -1,4 +1,4 @@
-import SingleAlbumSection from '../components/Single-Album-Section/SingleAlbumSection.jsx'
+import SingleAlbumSection from '../components/sections/Single-Album-Section/SingleAlbumSection.jsx'
 import { useParams } from 'react-router-dom';
 
 function SingleAlbumView({data}) {

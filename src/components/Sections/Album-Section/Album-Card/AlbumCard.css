@@ -43,9 +43,9 @@
     border-style: solid;
     /* margin: 5px; */
     /* cursor: none; */
-    transition: border-color 0.5s;
+    transition: 0.5s;
     box-sizing: border-box;
-    box-shadow: 0 4px 16px rgba(228, 87, 46, 0.4);
+    box-shadow: 0 0px 16px rgba(228, 87, 46, 0.6);
 }
 
 .album-entry:hover .album-image {
