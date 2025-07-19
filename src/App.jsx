@@ -64,11 +64,11 @@ function App() {
         <Routes>
           <Route path="/" element={<HomeView data={albumData} />} />
           <Route path="/about" element={<AboutView data={homeData} />} />
-          <Route path="/band-view" element={<BandView albumData={albumData} bandData={bandData} />} />
-          <Route path="/album-view" element={<AlbumView data={albumData} />} />
-          <Route path="/portfolio-view" element={<PortfolioView data={portfolioData} lyricData={lyricData} />} />
-          <Route path="/single-album-view/:albumId" element={<SingleAlbumView data={albumData} />} />
-          <Route path="/lyric-view/:lyricId" element={<LyricView data={lyricData} />} />
+          <Route path="/bands" element={<BandView albumData={albumData} bandData={bandData} />} />
+          <Route path="/albums" element={<AlbumView data={albumData} />} />
+          <Route path="/portfolio" element={<PortfolioView data={portfolioData} lyricData={lyricData} />} />
+          <Route path="/single-album/:albumId" element={<SingleAlbumView data={albumData} />} />
+          <Route path="/lyrics/:lyricId" element={<LyricView data={lyricData} />} />
         </Routes>
         <div>
           <SocialLinks />

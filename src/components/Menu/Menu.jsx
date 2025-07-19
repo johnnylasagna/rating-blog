@@ -14,15 +14,15 @@ function Menu() {
                     <FontAwesomeIcon icon={faHouse} />
                     Home
                 </Link>
-                <Link to="/band-view" className={`nav-link${location.pathname === '/band-view' ? ' active' : ''}`}>
+                <Link to="/bands" className={`nav-link${location.pathname === '/bands' ? ' active' : ''}`}>
                     <FontAwesomeIcon icon={faGuitar} />
                     Bands
                 </Link>
-                <Link to="/album-view" className={`nav-link${location.pathname === '/album-view' ? ' active' : ''}`}>
+                <Link to="/albums" className={`nav-link${location.pathname === '/albums' ? ' active' : ''}`}>
                     <FontAwesomeIcon icon={faRecordVinyl} />
                     All Albums
                 </Link>
-                <Link to="/portfolio-view" className={`nav-link${location.pathname === '/portfolio-view' ? ' active' : ''}`}>
+                <Link to="/portfolio" className={`nav-link${location.pathname === '/portfolio' ? ' active' : ''}`}>
                     <FontAwesomeIcon icon={faMusic} />
                     My music
                 </Link>

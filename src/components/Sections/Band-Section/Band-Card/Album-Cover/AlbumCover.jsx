@@ -26,7 +26,7 @@ function AlbumCover({ album, name }) {
 
     return (
         <div className="album-container" onMouseEnter={handleMouseEnter} onMouseLeave={handleMouseLeave} onMouseMove={handleMouseMove}>
-            <Link to={'../single-album-view/' + album.id} className='album-cover-link'>
+            <Link to={'../single-album/' + album.id} className='album-cover-link'>
                 <img src={albumCover} alt={album.name} className="album-cover" />
                 {ReactDOM.createPortal(albumInfo, document.getElementById('album-info-root'))}
             </Link>

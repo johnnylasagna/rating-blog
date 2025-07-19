@@ -2,7 +2,7 @@ import './EPCard.css'
 
 function EPCard({name}) {
     const EPCover = '/assets/EP/' + name + '/' + 'Cover.jpg'
-    console.log(EPCover)
+    // console.log(EPCover)
     return (
         <div className="EP-Card">
             <div className='EP-img-wrapper'>

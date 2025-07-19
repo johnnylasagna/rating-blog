@@ -11,14 +11,14 @@ function NewAlbumsCard({ albums }) {
                     const imgPath = '/assets/' + album.band + '/' + albumNameFixed + '.jpg';
                     return (
                         <div key={album.id}>
-                            <Link to={'../single-album-view/' + album.id} className='newalbums-card-album-link'>
+                            <Link to={'../single-album/' + album.id} className='newalbums-card-album-link'>
                                 <img src={imgPath} alt={albumNameFixed} className='newalbums-card-image' />
                             </Link>
                         </div>
                     );
                 })}
             </div>
-            <Link to="/album-view" className='newalbums-card-link'>Click here to see more albums</Link>
+            <Link to="/albums" className='newalbums-card-link'>Click here to see more albums</Link>
             <div className='newalbums-card-info'>
                 {albums.map(album => (
                     <div className='newalbums-card-album-names' key={album.id}>

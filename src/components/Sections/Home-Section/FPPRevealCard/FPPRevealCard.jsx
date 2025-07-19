@@ -15,8 +15,11 @@ function FPPRevealCard() {
                 <div className='fpp-card-album-names'>
                     The music video for Failing At Your Own Pace is out now!
                 </div>
+                <div className='fpp-card-album-names'>
+                    The lyric video for Spectra is out now!
+                </div>
             </div>
-            <Link to="/portfolio-view" className='fpp-card-link'>Click here to see my other songs</Link>
+            <Link to="/portfolio" className='fpp-card-link'>Click here to see my other songs</Link>
         </div>
     );
 }

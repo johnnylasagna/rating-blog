@@ -2,7 +2,7 @@ import './BandDescription.css'
 
 function BandDescription({description}) {
     return (
-        <div className="band-description">{description}</div>
+        <div className="band-description"><p>{description}</p></div>
     )
 }
 

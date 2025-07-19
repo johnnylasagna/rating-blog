@@ -7,6 +7,7 @@ function SingleAlbumTrackList({ trackList }) {
             {trackList.map((track, idx) => (
                 <div className='single-album-track' key={idx}>{track}</div>
             ))}
+            {(trackList.length === 0) && <div className='single-album-track'>Looks like the developer was too lazy to add all the tracklists</div>}
         </div>
     );
 }

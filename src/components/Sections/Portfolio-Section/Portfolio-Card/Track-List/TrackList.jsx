@@ -16,7 +16,7 @@ function TrackList({ tracks, year, name, lyricData}) {
                         const lyricId = lyricEntry ? lyricEntry.id : '';
                         return (
                             <div className="track" key={track.name}>
-                                <Link to={`../lyric-view/${lyricId}`}>
+                                <Link to={`../lyrics/${lyricId}`}>
                                     <div>{track.name}</div>
                                     <div>{track.duration}</div>
                                 </Link>

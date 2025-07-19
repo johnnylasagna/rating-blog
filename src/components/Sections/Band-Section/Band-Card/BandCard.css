@@ -10,13 +10,43 @@
     /* backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px); */
     margin: 10px;
+    animation: albumBoxShake 0.8s ease-out forwards;
+    animation-delay: 0s;
+}
+
+@keyframes albumBoxShake {
+    0% { transform: translateY(-30px); }
+    20% { transform: translateY(-10px); }
+    40% { transform: translateY(10px); }
+    60% { transform: translateY(-5px); }
+    80% { transform: translateY(5px); }
+    100% { transform: translateY(0); }
+}
+
+.album-box:hover .album-row-wrapper {
+    background-color: rgb(9, 21, 64, 0.75);
+    /* box-shadow: 0 0px 16px rgb(171, 210, 250, 0.9); */
+    /* border: medium#7692FF solid; */
+    transition: 0.3s;
+}
+
+.album-box:hover .band-name {
+    /* box-shadow: 0 0px 16px rgba(228, 87, 46, 0.9); */
+    /* background-color: rgba(228, 87, 46, 0.8); */
+    transition: 0.3s;
+}
+
+.album-box:hover .band-description {
+    /* box-shadow: 0 0px 16px rgba(228, 87, 46, 0.9); */
+    /* background-color: rgba(228, 87, 46, 0.8); */
+    transition: 0.3s;
 }
 
 .album-row {
     display: flex;
-    align-items: center;   
+    align-items: center;
     justify-content: center;
-    gap: 20px;                
+    gap: 20px;
     padding: 20px;
     /* width: 100%; */
 }

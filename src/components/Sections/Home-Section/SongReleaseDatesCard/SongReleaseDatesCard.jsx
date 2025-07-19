@@ -19,7 +19,7 @@ function SongReleaseDatesCard() {
                     Meanwhile you can check out my other songs and some hints about the new EP
                 </div>
             </div>
-            <Link to="/portfolio-view" className='songrelease-card-link'>Click here to see my other songs</Link>
+            <Link to="/portfolio" className='songrelease-card-link'>Click here to see my other songs</Link>
         </div>
     );
 }

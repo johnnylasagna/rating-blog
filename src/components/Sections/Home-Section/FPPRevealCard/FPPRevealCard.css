@@ -32,7 +32,8 @@
 }
 
 .fpp-card h1 {
-    color:#FFC914
+    color:#FFC914;
+    margin: 0px;
 }
 
 .fpp-card-heading {

@@ -73,7 +73,7 @@
     align-items: center;
     justify-content: center;
     flex: 1 1 160px;
-    min-width: 100px;
+    min-width: 150px;
     height: max-content;
     /* background-color: rgb(118, 146, 255, 0.8); */
     /* SET TO 1 TO REMOVE GLASS EFFECT */
@@ -113,7 +113,8 @@
 }
 
 .nav-link.active {
-  color: #ff4081; /* or any highlight color you prefer */
+  /* color: #ff4081; or any highlight color you prefer */
+  color: rgb(228, 87, 46, 1);
   /* font-weight: bold; */
   /* Add more styles as needed */
 }

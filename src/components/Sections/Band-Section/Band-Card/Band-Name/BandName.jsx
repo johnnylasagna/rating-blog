@@ -2,7 +2,7 @@ import './BandName.css'
 
 function BandName({name, onClick}) {
     return (
-        <div className='band-name' onClick={onClick}>{name}</div>
+        <div className='band-name' onClick={onClick}><p>{name}</p></div>
     )
 }
 

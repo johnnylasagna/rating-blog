@@ -8,7 +8,7 @@ function AlbumCard({albums}) {
     return (
         <div className="album-card">
             {albums.map(album => {
-                const linkid = '../single-album-view/' + String(album.id);
+                const linkid = '../single-album/' + String(album.id);
                 return (
                     <div className="album-entry" key={album.band + album.name}>
                         <Link to={linkid} className='album-entry-link'>

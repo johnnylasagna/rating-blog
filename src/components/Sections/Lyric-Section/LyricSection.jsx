@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 
 function LyricSection({ data }) {
     const { lyricId } = useParams();
-    console.log(lyricId)
+    // console.log(lyricId)
     const song = data.find(item => item.id === Number(lyricId));
     return (
         <div className="lyric-section">
